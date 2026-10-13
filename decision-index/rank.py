@@ -22,14 +22,14 @@ def line(i, r, params=False):
     n = f"**{r['name']}**" if r.get("mine") else r["name"]
     full = "" if r["full"] is None else f"{r['full']:.1f}"
     p = f" {r['params']/1e9:.1f}B |" if params else ""
-    return f"| {i} | {n} |{p} {r['public']:.1f} | {full} |"
+    return f"| {i} | {n} |{p} {r['public']:.1f} | {full} | {r.get('notes', '')} |"
 
 if mode == "full":
-    print("| Rank | Model | Public index | Full score (board) |\n|---|---|---|---|")
+    print("| Rank | Model | Public index | Full score (board) | Notes |\n|---|---|---|---|---|")
     for i, r in enumerate(rows, 1):
         print(line(i, r))
 elif mode == "small":
-    print("| Rank overall | Model | Params | Public index | Full score (board) |\n|---|---|---|---|---|")
+    print("| Rank overall | Model | Params | Public index | Full score (board) | Notes |\n|---|---|---|---|---|---|")
     for i, r in enumerate(rows, 1):
         if r["params"] and r["params"] <= 10.5e9:
             print(line(i, r, params=True))
