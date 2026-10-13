@@ -2,7 +2,7 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Decision Index, public benchmarks, with Microsoft-Decision-1</title>
 <meta name="description" content="The Jev Decision Index public-only ranking, fetched live, with Microsoft-Decision-1's public-suite score inserted.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="data:,"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Chewy&display=swap" rel="stylesheet">
 <style>
 /* Stylesheet from the Jev Decision Index space (huggingface.co/spaces/multimodalart/jev-decision-index), reused so this page looks like the board. */
@@ -550,7 +550,7 @@ tr.ours .bm a{color:var(--ink)}
 <p>Every entry of the <a href="https://huggingface.co/spaces/multimodalart/jev-decision-index" target="_blank" rel="noopener">Jev Decision Index</a> ranked by its public index, fetched from the board when this page loads, with the highlighted row added from a run of the same public suite (<a href="https://github.com/Yuncun/benchmarks" target="_blank" rel="noopener">github.com/Yuncun/benchmarks</a>). Ranks use the board's own tie rule. Area columns are chance-corrected skill, 0 to 100.</p>
 <p id="status" class="foot">Loading the board…</p>
 </div>
-<main class="wrap"><div id="app"></div></main>
+<main class="wrap"><div id="table"><div id="app"></div></div></main>
 <script>
 const BASE='https://multimodalart-jev-decision-index.static.hf.space';
 const $=s=>document.querySelector(s);
