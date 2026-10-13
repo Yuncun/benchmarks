@@ -547,8 +547,8 @@ tr.ours .bm a{color:var(--ink)}
 <body>
 <div class="top">
 <h1>Decision Index, public benchmarks</h1>
-<p>Every entry of the <a href="https://huggingface.co/spaces/multimodalart/jev-decision-index" target="_blank" rel="noopener">Jev Decision Index</a> ranked by its public index, fetched from the board when this page loads, with the highlighted row added from a run of the same public suite (<a href="https://github.com/Yuncun/benchmarks" target="_blank" rel="noopener">github.com/Yuncun/benchmarks</a>). Ranks use the board's own tie rule. Area columns are chance-corrected skill, 0 to 100.</p>
-<p id="status" class="foot">Loading the board…</p>
+<p>Live mirror of the <a href="https://huggingface.co/spaces/multimodalart/jev-decision-index" target="_blank" rel="noopener">Jev Decision Index</a> plus Microsoft-Decision-1 and SnapJudge.</p>
+<p id="status" class="foot" hidden></p>
 </div>
 <main class="wrap"><div id="table"><div id="app"></div></div></main>
 <script>
@@ -621,7 +621,6 @@ async function getJSON(path){
  const head=`<tr><th class="r">#</th><th>model</th><th class="r">Public only</th>${AREAS.map(c=>`<th class="r">${esc(c.label.split(/\s*&\s*|\s+/)[0])}</th>`).join('')}<th class="r">calibration</th><th class="r">size</th><th class="r">answered</th><th class="r">latency</th></tr>`;
  $('#app').innerHTML=`<div class="table-scroll"><table><thead>${head}</thead><tbody>${body}</tbody></table></div>`;
  const ours=R.runs.map(u=>`${esc(u.name)}: ${rankText(rank[u.engine])} of ${sorted.length}, public index ${one(u.pub)}`).join('; ');
- $('#status').innerHTML=`${I.live?'Board data fetched live':'Board data from the snapshot in this repo'} · ${esc(D.suite.label||'')}, generated ${esc(D.generated_utc||V3.generated_utc||'')} · ${sorted.length} entries · ${ours}. Calibration for the added row is not computed. Its latency is a hosted-API round trip, as the board also reports for Jev.`;
-})().catch(e=>{$('#status').textContent='Could not load the board data: '+e});
+})().catch(e=>{const st=$('#status');st.hidden=false;st.textContent='Could not load the board data: '+e});
 </script>
 </body></html>
