@@ -1,0 +1,62 @@
+{
+ "runs": [
+  {
+   "engine": "microsoft-decision-1",
+   "name": "Microsoft-Decision-1",
+   "long_name": "Microsoft-Decision-1 (9B, hosted API)",
+   "meta": {
+    "kind": "fine-tune",
+    "technique": "autoregressive",
+    "technique_name": "autoregressive",
+    "served_params": 9000000000.0,
+    "params_from_name": true,
+    "model_url": "https://openrouter.ai/microsoft/microsoft-decision-1",
+    "base_model": "Qwen/Qwen3.5-9B",
+    "base_url": "https://huggingface.co/Qwen/Qwen3.5-9B",
+    "org": {
+     "id": "microsoft",
+     "name": "Microsoft",
+     "logo": null
+    },
+    "weights_note": "API only. Public suite run from github.com/Yuncun/benchmarks on 2026-10-13; not a board entry, no private tests, no Full score."
+   },
+   "pub": 55.39,
+   "categories": [
+    {
+     "id": "knowledge",
+     "skill": 0.3964,
+     "raw": 0.533
+    },
+    {
+     "id": "language",
+     "skill": 0.6235,
+     "raw": 0.7298
+    },
+    {
+     "id": "retrieval",
+     "skill": 0.568,
+     "raw": 0.6915
+    },
+    {
+     "id": "tools",
+     "skill": 0.7506,
+     "raw": 0.7742
+    },
+    {
+     "id": "arts",
+     "skill": 0.393,
+     "raw": 0.5924
+    }
+   ],
+   "ece": null,
+   "counts": {
+    "ok": 110086
+   },
+   "latency": {
+    "median": 291.2,
+    "note": "Hosted API through OpenRouter, network round-trip; not comparable to the on-card figures."
+   },
+   "source": "decision-index/microsoft-decision-1/scores.json"
+  }
+ ]
+}
