@@ -1,0 +1,278 @@
+{
+ "areas": {
+  "knowledge": {
+   "weight": 0.2585,
+   "benchmarks": [
+    "25",
+    "30",
+    "31",
+    "32",
+    "33",
+    "43",
+    "44",
+    "45",
+    "57",
+    "58",
+    "28"
+   ]
+  },
+  "language": {
+   "weight": 0.2585,
+   "benchmarks": [
+    "11",
+    "12",
+    "29",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "59"
+   ]
+  },
+  "retrieval": {
+   "weight": 0.2002,
+   "benchmarks": [
+    "4",
+    "5",
+    "36",
+    "37",
+    "56",
+    "61"
+   ]
+  },
+  "tools": {
+   "weight": 0.1828,
+   "benchmarks": [
+    "1",
+    "2",
+    "3",
+    "9",
+    "62"
+   ]
+  },
+  "arts": {
+   "weight": 0.1,
+   "benchmarks": [
+    "20",
+    "21",
+    "22",
+    "23",
+    "50",
+    "64"
+   ]
+  }
+ },
+ "benchmarks": {
+  "1": {
+   "short": "BFCL",
+   "group": "tools",
+   "gold": 1.2
+  },
+  "2": {
+   "short": "ToolRet",
+   "group": "tools",
+   "gold": 1.0
+  },
+  "3": {
+   "short": "API-Bank",
+   "group": "tools",
+   "gold": 1.2
+  },
+  "4": {
+   "short": "BANKING77",
+   "group": "retrieval",
+   "gold": 1.2
+  },
+  "5": {
+   "short": "CLINC150",
+   "group": "retrieval",
+   "gold": 1.2
+  },
+  "6": {
+   "short": "RouterBench",
+   "group": "tools",
+   "gold": 1.0
+  },
+  "9": {
+   "short": "Home appliances",
+   "group": "tools",
+   "gold": 1.0
+  },
+  "10": {
+   "short": "SGD",
+   "group": "retrieval",
+   "gold": 1.0
+  },
+  "11": {
+   "short": "ContractNLI",
+   "group": "language",
+   "gold": 1.0
+  },
+  "12": {
+   "short": "ANLI",
+   "group": "language",
+   "gold": 1.2
+  },
+  "20": {
+   "short": "BPoMP",
+   "group": "arts",
+   "gold": 1.0
+  },
+  "21": {
+   "short": "Humicroedit",
+   "group": "arts",
+   "gold": 1.0
+  },
+  "22": {
+   "short": "POP909",
+   "group": "arts",
+   "gold": 1.0
+  },
+  "23": {
+   "short": "cfcolor",
+   "group": "arts",
+   "gold": 1.0
+  },
+  "24": {
+   "short": "MMLU",
+   "group": "knowledge",
+   "gold": 1.0
+  },
+  "25": {
+   "short": "GPQA Diamond",
+   "group": "knowledge",
+   "gold": 1.2
+  },
+  "26": {
+   "short": "ARC-Easy",
+   "group": "knowledge",
+   "gold": 1.0
+  },
+  "27": {
+   "short": "ARC-Challenge",
+   "group": "knowledge",
+   "gold": 1.0
+  },
+  "28": {
+   "short": "WinoGrande",
+   "group": "knowledge",
+   "gold": 1.2
+  },
+  "29": {
+   "short": "HellaSwag",
+   "group": "language",
+   "gold": 1.2
+  },
+  "30": {
+   "short": "GSM8K",
+   "group": "knowledge",
+   "gold": 1.0
+  },
+  "31": {
+   "short": "ChessBench",
+   "group": "knowledge",
+   "gold": 1.0
+  },
+  "32": {
+   "short": "MuSR",
+   "group": "knowledge",
+   "gold": 1.0
+  },
+  "33": {
+   "short": "SATA-Bench",
+   "group": "knowledge",
+   "gold": 1.0
+  },
+  "36": {
+   "short": "BRIGHT",
+   "group": "retrieval",
+   "gold": 1.2
+  },
+  "37": {
+   "short": "Amazon ESCI",
+   "group": "retrieval",
+   "gold": 1.0
+  },
+  "38": {
+   "short": "ACOS",
+   "group": "language",
+   "gold": 1.0
+  },
+  "39": {
+   "short": "FinEntity",
+   "group": "language",
+   "gold": 1.0
+  },
+  "40": {
+   "short": "iSarcasmEval",
+   "group": "language",
+   "gold": 1.0
+  },
+  "41": {
+   "short": "VAST",
+   "group": "language",
+   "gold": 1.0
+  },
+  "42": {
+   "short": "NLI4CT",
+   "group": "language",
+   "gold": 1.0
+  },
+  "43": {
+   "short": "CRUXEval",
+   "group": "knowledge",
+   "gold": 1.0
+  },
+  "44": {
+   "short": "CLadder",
+   "group": "knowledge",
+   "gold": 1.0
+  },
+  "45": {
+   "short": "HLE",
+   "group": "knowledge",
+   "gold": 1.2
+  },
+  "50": {
+   "short": "Habermas",
+   "group": "arts",
+   "gold": 1.0
+  },
+  "56": {
+   "short": "PhishNChips",
+   "group": "retrieval",
+   "gold": 1.0
+  },
+  "57": {
+   "short": "MMLU-Pro",
+   "group": "knowledge",
+   "gold": 1.2
+  },
+  "58": {
+   "short": "BBH",
+   "group": "knowledge",
+   "gold": 1.2
+  },
+  "59": {
+   "short": "RAGTruth",
+   "group": "language",
+   "gold": 1.0
+  },
+  "61": {
+   "short": "HoVer",
+   "group": "retrieval",
+   "gold": 1.0
+  },
+  "62": {
+   "short": "When2Call",
+   "group": "tools",
+   "gold": 1.0
+  },
+  "64": {
+   "short": "New Yorker",
+   "group": "arts",
+   "gold": 1.0
+  }
+ }
+}

@@ -57,6 +57,48 @@
     "note": "Hosted API through OpenRouter, network round-trip; not comparable to the on-card figures."
    },
    "source": "decision-index/microsoft-decision-1/scores.json"
+  },
+  {
+   "engine": "snapjudge",
+   "name": "SnapJudge v0.2.0",
+   "long_name": "SnapJudge v0.2.0 (4B)",
+   "meta": {
+    "kind": "head / adapter",
+    "technique": "autoregressive",
+    "technique_name": "autoregressive",
+    "served_params": 4000000000.0,
+    "params_from_name": true,
+    "model_url": "https://github.com/scgopi/SnapJudge",
+    "code_url": "https://github.com/scgopi/SnapJudge",
+    "base_model": "Qwen/Qwen3.5-4B",
+    "base_url": "https://huggingface.co/Qwen/Qwen3.5-4B",
+    "org": null
+   },
+   "pub": 29.18,
+   "categories": [
+    {
+     "id": "knowledge",
+     "skill": 0.10718928571428572
+    },
+    {
+     "id": "tools",
+     "skill": 0.45632727272727264
+    },
+    {
+     "id": "arts",
+     "skill": 0.3655
+    }
+   ],
+   "ece": null,
+   "counts": {
+    "ok": null
+   },
+   "latency": {
+    "median": 76.46827050484717,
+    "note": "Median on an Apple M5 Max through the model's own MLX code; not the board's single-GPU setup."
+   },
+   "source": "decision-index/snapjudge-slice8/scores.json",
+   "status": "estimate from the 8-benchmark slice; see decision-index/METHOD.md"
   }
  ]
 }

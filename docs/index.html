@@ -606,7 +606,7 @@ async function getJSON(path){
  const rows=D.models.map(m=>({engine:m.engine,name:m.name,variant:m.variant,meta:m.meta,categories:m.categories,ece:m.calibration?m.calibration.ece*100:null,
    coverage:D.suite.requests?(m.counts.ok||0)/D.suite.requests:null,latency:m.latency&&m.latency.median,latnote:m.latency&&m.latency.note,score:m.scores.public_skill,notes:m.notes||[],contam:(m.contamination||[]).map(c=>c.flag)}));
  rows.push({engine:'jev',jev:true,name:'Jev',meta:null,categories:D.jev.categories,ece:D.jev.calibration?D.jev.calibration.ece*100:null,coverage:1,latency:D.jev.latency.median,latnote:D.jev.latency.note,score:D.jev.scores.public_skill,notes:[],contam:[]});
- for(const u of R.runs)rows.push({engine:u.engine,name:u.name,ours:true,meta:u.meta,categories:u.categories,ece:u.ece,coverage:D.suite.requests?u.counts.ok/D.suite.requests:null,latency:u.latency&&u.latency.median,latnote:u.latency&&u.latency.note,score:u.pub,notes:[],contam:[]});
+ for(const u of R.runs)rows.push({engine:u.engine,name:u.name,ours:true,meta:u.meta,categories:u.categories,ece:u.ece,coverage:D.suite.requests&&u.counts.ok!=null?u.counts.ok/D.suite.requests:null,latency:u.latency&&u.latency.median,latnote:u.latency&&u.latency.note,score:u.pub,notes:[],contam:[]});
  const rank=rankOf(rows,T);
  const sorted=rows.filter(r=>r.score!=null).sort((a,b)=>b.score-a.score);
  const body=sorted.map(r=>`<tr class="${r.jev?'jev':''}${r.ours?' ours':''}" data-engine="${esc(r.engine)}">

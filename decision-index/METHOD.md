@@ -30,3 +30,10 @@ The public index is 20% of the board's Full score. The other 80% is private test
 | `board-snapshot/board.csv`, `v03.json` | the board's published scores for all 149 entries, 2026-10-12 |
 | `rank.py` | builds the README list, `small-models.md` and `areas.md` |
 | `recheck.py` | compares a re-run with the published results |
+
+## SnapJudge v0.2.0
+
+- Model: [scgopi/SnapJudge](https://github.com/scgopi/SnapJudge) v0.2.0, run through its own MLX code on an Apple M5 Max behind a small `/v1/systemone` wrapper. It accepts at most 12 options per question; requests over that are refused and count as wrong, the board's rule.
+- Slice run, 2026-10-13: 8 of the 37 public benchmarks (BFCL, Home appliances, GPQA Diamond, WinoGrande, GSM8K, CRUXEval, HLE, New Yorker), 7,496 requests. Files in `snapjudge-slice8/`; `rank_slice.py` re-ranks every board entry on the same 8 benchmarks, output in `ranking-slice8.md`.
+- The row on the live page is an estimate until the full run lands. Across the 149 board entries, a linear fit of the public index on the 8-benchmark slice index gives public = 4.98 + 0.887 × slice, residual SD 3.3 points, 90% of entries within 5.4 points. SnapJudge's slice index of 27.3 gives an estimated public index of 29.2. Its area columns on the page are slice-only values for the three areas the slice covers; the other two show a dash. Calibration and answered share are not computed for the slice.
+- Full public suite run: scheduled for 2026-10-13; the estimate row is replaced by the measured score when it completes.
