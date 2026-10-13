@@ -1,0 +1,3025 @@
+{
+ "fetched": "2026-10-13",
+ "api": [
+  {
+   "key": "gpt-6-luna",
+   "name": "GPT-6 Luna (default medium reasoning effort)",
+   "board": "api",
+   "score": 39.16,
+   "intelligence": 96.9,
+   "calibration": 100.0,
+   "speed": 71.8,
+   "cost": 38.4,
+   "ci": [
+    38.7,
+    39.4
+   ],
+   "flags": [],
+   "label": "GPT-6 Luna (default medium reasoning effort): 39.2, official rank 15. Intelligence 96.9, calibration 100.0, speed 71.8, cost 38.4. 95% interval 38.7 to 39.4."
+  },
+  {
+   "key": "gpt-6-luna-low",
+   "name": "GPT-6 Luna (low reasoning effort)",
+   "board": "api",
+   "score": 40.48,
+   "intelligence": 96.6,
+   "calibration": 99.0,
+   "speed": 71.7,
+   "cost": 39.0,
+   "ci": [
+    40.0,
+    40.8
+   ],
+   "flags": [],
+   "label": "GPT-6 Luna (low reasoning effort): 40.5, official rank 13. Intelligence 96.6, calibration 99.0, speed 71.7, cost 39.0. 95% interval 40.0 to 40.8."
+  },
+  {
+   "key": "qwen3.8-27b",
+   "name": "Qwen3.8 27B (Chutes TEE)",
+   "board": "api",
+   "score": 0.0,
+   "intelligence": 96.4,
+   "calibration": 100.0,
+   "speed": 57.4,
+   "cost": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "flags": [],
+   "label": "Qwen3.8 27B (Chutes TEE): 0.0, official rank 28. Intelligence 96.4, calibration 100.0, speed 57.4, cost 0.0. 95% interval 0.0 to 0.0."
+  },
+  {
+   "key": "deepseek-flash",
+   "name": "DeepSeek V4.1 Flash (thinking default)",
+   "board": "api",
+   "score": 7.09,
+   "intelligence": 94.7,
+   "calibration": 100.0,
+   "speed": 68.1,
+   "cost": 19.6,
+   "ci": [
+    7.0,
+    7.1
+   ],
+   "flags": [],
+   "label": "DeepSeek V4.1 Flash (thinking default): 7.1, official rank 23. Intelligence 94.7, calibration 100.0, speed 68.1, cost 19.6. 95% interval 7.0 to 7.1."
+  },
+  {
+   "key": "gpt-5.6-luna",
+   "name": "GPT-5.6 Luna (low reasoning effort)",
+   "board": "api",
+   "score": 21.41,
+   "intelligence": 94.1,
+   "calibration": 94.9,
+   "speed": 73.1,
+   "cost": 30.2,
+   "ci": [
+    21.1,
+    21.8
+   ],
+   "flags": [],
+   "label": "GPT-5.6 Luna (low reasoning effort): 21.4, official rank 18. Intelligence 94.1, calibration 94.9, speed 73.1, cost 30.2. 95% interval 21.1 to 21.8."
+  },
+  {
+   "key": "wity-1",
+   "name": "wity-1 (Wity, reasoning auto)",
+   "board": "api",
+   "score": 70.765,
+   "intelligence": 70.3,
+   "calibration": 87.9,
+   "speed": 71.8,
+   "cost": 58.8,
+   "ci": [
+    68.9,
+    71.9
+   ],
+   "flags": [],
+   "label": "wity-1 (Wity, reasoning auto): 70.8, official rank 5. Intelligence 70.3, calibration 87.9, speed 71.8, cost 58.8. 95% interval 68.9 to 71.9."
+  },
+  {
+   "key": "fastino-glide",
+   "name": "Fastino GLiDE",
+   "board": "api",
+   "score": 30.59,
+   "intelligence": 66.1,
+   "calibration": 88.0,
+   "speed": 77.5,
+   "cost": 35.9,
+   "ci": [
+    29.5,
+    31.6
+   ],
+   "flags": [],
+   "label": "Fastino GLiDE: 30.6, official rank 16. Intelligence 66.1, calibration 88.0, speed 77.5, cost 35.9. 95% interval 29.5 to 31.6."
+  },
+  {
+   "key": "mercury-decide",
+   "name": "Mercury Decide (Inception; System One decisions API, served free on OpenRouter as inception/mercury-decide:free)",
+   "board": "api",
+   "score": 72.368,
+   "intelligence": 65.9,
+   "calibration": 81.3,
+   "speed": 85.5,
+   "cost": 62.1,
+   "ci": [
+    69.9,
+    73.9
+   ],
+   "flags": [],
+   "label": "Mercury Decide (Inception; System One decisions API, served free on OpenRouter as inception/mercury-decide:free): 72.4, official rank 3. Intelligence 65.9, calibration 81.3, speed 85.5, cost 62.1. 95% interval 69.9 to 73.9."
+  },
+  {
+   "key": "sage-1.3.0",
+   "name": "Sage 1.3.0 (Levanto Labs)",
+   "board": "api",
+   "score": 74.05,
+   "intelligence": 65.6,
+   "calibration": 91.6,
+   "speed": 93.6,
+   "cost": 58.2,
+   "ci": [
+    71.7,
+    75.2
+   ],
+   "flags": [],
+   "label": "Sage 1.3.0 (Levanto Labs): 74.0, official rank 1. Intelligence 65.6, calibration 91.6, speed 93.6, cost 58.2. 95% interval 71.7 to 75.2."
+  },
+  {
+   "key": "attest-31b-v1.0",
+   "name": "attest-31B-v1.0",
+   "board": "api",
+   "score": 67.994,
+   "intelligence": 65.2,
+   "calibration": 73.8,
+   "speed": 97.1,
+   "cost": 50.9,
+   "ci": [
+    65.7,
+    69.7
+   ],
+   "flags": [],
+   "label": "attest-31B-v1.0: 68.0, official rank 7. Intelligence 65.2, calibration 73.8, speed 97.1, cost 50.9. 95% interval 65.7 to 69.7."
+  },
+  {
+   "key": "spx-cd-pro",
+   "name": "SPX-CD Pro (SurdAI, hosted /v1/systemone, Oct-4 checkpoint)",
+   "board": "api",
+   "score": 47.67,
+   "intelligence": 64.9,
+   "calibration": 92.4,
+   "speed": 78.0,
+   "cost": 43.1,
+   "ci": [
+    46.4,
+    48.2
+   ],
+   "flags": [],
+   "label": "SPX-CD Pro (SurdAI, hosted /v1/systemone, Oct-4 checkpoint): 47.7, official rank 11. Intelligence 64.9, calibration 92.4, speed 78.0, cost 43.1. 95% interval 46.4 to 48.2."
+  },
+  {
+   "key": "jev-1.13.0",
+   "name": "Jev 1.13.0 (TypeSafe AI)",
+   "board": "api",
+   "score": 71.491,
+   "intelligence": 63.6,
+   "calibration": 90.6,
+   "speed": 91.5,
+   "cost": 54.7,
+   "ci": [
+    69.1,
+    72.4
+   ],
+   "flags": [],
+   "label": "Jev 1.13.0 (TypeSafe AI): 71.5, official rank 4. Intelligence 63.6, calibration 90.6, speed 91.5, cost 54.7. 95% interval 69.1 to 72.4."
+  },
+  {
+   "key": "liquid-d1",
+   "name": "d1 (Liquid AI)",
+   "board": "api",
+   "score": 73.049,
+   "intelligence": 62.1,
+   "calibration": 86.8,
+   "speed": 89.2,
+   "cost": 62.8,
+   "ci": [
+    70.6,
+    74.3
+   ],
+   "flags": [],
+   "label": "d1 (Liquid AI): 73.0, official rank 2. Intelligence 62.1, calibration 86.8, speed 89.2, cost 62.8. 95% interval 70.6 to 74.3."
+  },
+  {
+   "key": "microsoft-decision-1-a2-20261012",
+   "name": "Microsoft-Decision-1 (Azure Foundry) \u2014 A2 re-run",
+   "board": "api",
+   "score": 71.455,
+   "intelligence": 59.2,
+   "calibration": 85.2,
+   "speed": 88.7,
+   "cost": 62.2,
+   "ci": [
+    60.3,
+    74.5
+   ],
+   "flags": [
+    "preliminary",
+    "not ranked"
+   ],
+   "label": "Microsoft-Decision-1 (Azure Foundry) \u2014 A2 re-run: 71.5, preliminary, not ranked. Intelligence 59.2, calibration 85.2, speed 88.7, cost 62.2. 95% interval 60.3 to 74.5."
+  },
+  {
+   "key": "gemini-3.1-flash-lite",
+   "name": "Gemini 3.1 Flash-Lite",
+   "board": "api",
+   "score": 16.94,
+   "intelligence": 58.6,
+   "calibration": 60.9,
+   "speed": 79.0,
+   "cost": 29.2,
+   "ci": [
+    15.2,
+    17.8
+   ],
+   "flags": [],
+   "label": "Gemini 3.1 Flash-Lite: 16.9, official rank 20. Intelligence 58.6, calibration 60.9, speed 79.0, cost 29.2. 95% interval 15.2 to 17.8."
+  },
+  {
+   "key": "spx-cd-flash",
+   "name": "SPX-CD Flash (SurdAI, hosted /v1/systemone, Oct-4 checkpoint)",
+   "board": "api",
+   "score": 66.68,
+   "intelligence": 58.4,
+   "calibration": 90.2,
+   "speed": 79.4,
+   "cost": 52.1,
+   "ci": [
+    64.4,
+    67.9
+   ],
+   "flags": [],
+   "label": "SPX-CD Flash (SurdAI, hosted /v1/systemone, Oct-4 checkpoint): 66.7, official rank 8. Intelligence 58.4, calibration 90.2, speed 79.4, cost 52.1. 95% interval 64.4 to 67.9."
+  },
+  {
+   "key": "kushal-gemma4-31b-it-autoloops",
+   "name": "Autoloops \u2013 Gemma 4 31B IT",
+   "board": "api",
+   "score": 40.18,
+   "intelligence": 58.1,
+   "calibration": 87.3,
+   "speed": 84.5,
+   "cost": 40.5,
+   "ci": [
+    38.2,
+    41.8
+   ],
+   "flags": [],
+   "label": "Autoloops \u2013 Gemma 4 31B IT: 40.2, official rank 14. Intelligence 58.1, calibration 87.3, speed 84.5, cost 40.5. 95% interval 38.2 to 41.8."
+  },
+  {
+   "key": "microsoft-decision-1",
+   "name": "Microsoft-Decision-1 (Azure Foundry)",
+   "board": "api",
+   "score": 69.113,
+   "intelligence": 57.2,
+   "calibration": 84.4,
+   "speed": 81.5,
+   "cost": 61.5,
+   "ci": [
+    66.0,
+    70.4
+   ],
+   "flags": [],
+   "label": "Microsoft-Decision-1 (Azure Foundry): 69.1, official rank 6. Intelligence 57.2, calibration 84.4, speed 81.5, cost 61.5. 95% interval 66.0 to 70.4."
+  },
+  {
+   "key": "openai-decisions",
+   "name": "OpenAI Decisions (gpt-6-luna)",
+   "board": "api",
+   "score": 62.5,
+   "intelligence": 56.9,
+   "calibration": 90.1,
+   "speed": 89.3,
+   "cost": 48.6,
+   "ci": [
+    51.6,
+    64.6
+   ],
+   "flags": [],
+   "label": "OpenAI Decisions (gpt-6-luna): 62.5, official rank 9. Intelligence 56.9, calibration 90.1, speed 89.3, cost 48.6. 95% interval 51.6 to 64.6."
+  },
+  {
+   "key": "simplejev-qwen3.6-35b-a3b",
+   "name": "SimpleJev Qwen3.6-35B-A3B",
+   "board": "api",
+   "score": 27.57,
+   "intelligence": 56.3,
+   "calibration": 80.3,
+   "speed": 76.7,
+   "cost": 35.1,
+   "ci": [
+    22.8,
+    28.9
+   ],
+   "flags": [],
+   "label": "SimpleJev Qwen3.6-35B-A3B: 27.6, official rank 17. Intelligence 56.3, calibration 80.3, speed 76.7, cost 35.1. 95% interval 22.8 to 28.9."
+  },
+  {
+   "key": "simplejev-qwen3.8-27b",
+   "name": "SimpleJev Qwen3.8-27B",
+   "board": "api",
+   "score": 3.22,
+   "intelligence": 52.9,
+   "calibration": 90.3,
+   "speed": 76.9,
+   "cost": 14.9,
+   "ci": [
+    2.1,
+    3.3
+   ],
+   "flags": [],
+   "label": "SimpleJev Qwen3.8-27B: 3.2, official rank 24. Intelligence 52.9, calibration 90.3, speed 76.9, cost 14.9. 95% interval 2.1 to 3.3."
+  },
+  {
+   "key": "instinct",
+   "name": "Instinct (ZooWork, Qwen3.8-27B)",
+   "board": "api",
+   "score": 62.24,
+   "intelligence": 47.8,
+   "calibration": 93.2,
+   "speed": 87.2,
+   "cost": 64.4,
+   "ci": [
+    39.5,
+    72.1
+   ],
+   "flags": [],
+   "label": "Instinct (ZooWork, Qwen3.8-27B): 62.2, official rank 10. Intelligence 47.8, calibration 93.2, speed 87.2, cost 64.4. 95% interval 39.5 to 72.1."
+  },
+  {
+   "key": "vansa-3.4",
+   "name": "Vansa-3.4 (Vansa, hosted System One API)",
+   "board": "api",
+   "score": 42.6,
+   "intelligence": 40.9,
+   "calibration": 86.5,
+   "speed": 95.5,
+   "cost": 61.9,
+   "ci": [
+    25.3,
+    69.0
+   ],
+   "flags": [],
+   "label": "Vansa-3.4 (Vansa, hosted System One API): 42.6, official rank 12. Intelligence 40.9, calibration 86.5, speed 95.5, cost 61.9. 95% interval 25.3 to 69.0."
+  },
+  {
+   "key": "openjev-sglang",
+   "name": "openjev-sglang (Qwen3.6-35B-A3B on SGLang)",
+   "board": "api",
+   "score": 15.38,
+   "intelligence": 38.8,
+   "calibration": 78.6,
+   "speed": 77.7,
+   "cost": 35.6,
+   "ci": [
+    8.7,
+    26.2
+   ],
+   "flags": [],
+   "label": "openjev-sglang (Qwen3.6-35B-A3B on SGLang): 15.4, official rank 22. Intelligence 38.8, calibration 78.6, speed 77.7, cost 35.6. 95% interval 8.7 to 26.2."
+  },
+  {
+   "key": "instinct-dual-4b",
+   "name": "Instinct Dual 4B",
+   "board": "api",
+   "score": 17.97,
+   "intelligence": 28.3,
+   "calibration": 86.1,
+   "speed": 88.6,
+   "cost": 75.0,
+   "ci": [
+    10.9,
+    37.0
+   ],
+   "flags": [],
+   "label": "Instinct Dual 4B: 18.0, official rank 19. Intelligence 28.3, calibration 86.1, speed 88.6, cost 75.0. 95% interval 10.9 to 37.0."
+  },
+  {
+   "key": "system-one-open",
+   "name": "system-one-open (Gemma 4 E2B LoRA on an L4)",
+   "board": "api",
+   "score": 16.39,
+   "intelligence": 27.9,
+   "calibration": 75.9,
+   "speed": 79.3,
+   "cost": 68.3,
+   "ci": [
+    7.7,
+    36.1
+   ],
+   "flags": [],
+   "label": "system-one-open (Gemma 4 E2B LoRA on an L4): 16.4, official rank 21. Intelligence 27.9, calibration 75.9, speed 79.3, cost 68.3. 95% interval 7.7 to 36.1."
+  },
+  {
+   "key": "decision-machine-1",
+   "name": "decision-machine-1 (milliseconds.ai)",
+   "board": "api",
+   "score": 2.35,
+   "intelligence": 13.1,
+   "calibration": 79.2,
+   "speed": 93.0,
+   "cost": 58.3,
+   "ci": [
+    0.9,
+    8.6
+   ],
+   "flags": [],
+   "label": "decision-machine-1 (milliseconds.ai): 2.4, official rank 25. Intelligence 13.1, calibration 79.2, speed 93.0, cost 58.3. 95% interval 0.9 to 8.6."
+  },
+  {
+   "key": "jevact",
+   "name": "JevAct (einptein, jev1-2b-v2)",
+   "board": "api",
+   "score": 1.11,
+   "intelligence": 10.1,
+   "calibration": 47.4,
+   "speed": 76.5,
+   "cost": 68.6,
+   "ci": [
+    0.3,
+    5.7
+   ],
+   "flags": [],
+   "label": "JevAct (einptein, jev1-2b-v2): 1.1, official rank 26. Intelligence 10.1, calibration 47.4, speed 76.5, cost 68.6. 95% interval 0.3 to 5.7."
+  },
+  {
+   "key": "fastino-gliner-2-5-decide",
+   "name": "Fastino GLiNER-2.5-Decide (hosted API)",
+   "board": "api",
+   "score": 0.343,
+   "intelligence": 7.0,
+   "calibration": 62.1,
+   "speed": 84.7,
+   "cost": 45.8,
+   "ci": [
+    0.1,
+    1.0
+   ],
+   "flags": [],
+   "label": "Fastino GLiNER-2.5-Decide (hosted API): 0.3, official rank 27. Intelligence 7.0, calibration 62.1, speed 84.7, cost 45.8. 95% interval 0.1 to 1.0."
+  }
+ ],
+ "open": [
+  {
+   "key": "pplx-decider-v1-1-27b",
+   "name": "Perplexity Decider v1.1 27B (Qwen3.8-27B, noncausal decision readout)",
+   "board": "open",
+   "score": 20.618,
+   "intelligence": 75.7,
+   "calibration": 89.9,
+   "speed": 86.8,
+   "cost": 29.9,
+   "ci": [
+    20.3,
+    20.8
+   ],
+   "flags": [],
+   "label": "Perplexity Decider v1.1 27B (Qwen3.8-27B, noncausal decision readout): 20.6, official rank 73. Intelligence 75.7, calibration 89.9, speed 86.8, cost 29.9. 95% interval 20.3 to 20.8."
+  },
+  {
+   "key": "vllm-sr-d3",
+   "name": "vLLM-SR d3",
+   "board": "open",
+   "score": 5.57,
+   "intelligence": 73.7,
+   "calibration": 92.2,
+   "speed": 87.4,
+   "cost": 17.9,
+   "ci": [
+    5.5,
+    5.6
+   ],
+   "flags": [],
+   "label": "vLLM-SR d3: 5.6, official rank 108. Intelligence 73.7, calibration 92.2, speed 87.4, cost 17.9. 95% interval 5.5 to 5.6."
+  },
+  {
+   "key": "quyet-1-0-large",
+   "name": "Quyet-1.0-Large (Chinh Nguyen, Gemma-4-31B decoder, option-letter logits)",
+   "board": "open",
+   "score": 71.387,
+   "intelligence": 73.4,
+   "calibration": 90.0,
+   "speed": 86.9,
+   "cost": 50.5,
+   "ci": [
+    69.8,
+    72.2
+   ],
+   "flags": [],
+   "label": "Quyet-1.0-Large (Chinh Nguyen, Gemma-4-31B decoder, option-letter logits): 71.4, official rank 3. Intelligence 73.4, calibration 90.0, speed 86.9, cost 50.5. 95% interval 69.8 to 72.2."
+  },
+  {
+   "key": "deck31b",
+   "name": "deck-31B (krishna765, frozen Gemma-4-31B-it, TorchAO FP8 dynamic)",
+   "board": "open",
+   "score": 68.682,
+   "intelligence": 73.0,
+   "calibration": 82.2,
+   "speed": 86.7,
+   "cost": 49.7,
+   "ci": [
+    67.1,
+    69.7
+   ],
+   "flags": [],
+   "label": "deck-31B (krishna765, frozen Gemma-4-31B-it, TorchAO FP8 dynamic): 68.7, official rank 9. Intelligence 73.0, calibration 82.2, speed 86.7, cost 49.7. 95% interval 67.1 to 69.7."
+  },
+  {
+   "key": "jeff_1_0_large",
+   "name": "Jeff-1.0-Large",
+   "board": "open",
+   "score": 68.593,
+   "intelligence": 71.9,
+   "calibration": 91.1,
+   "speed": 88.8,
+   "cost": 49.2,
+   "ci": [
+    67.1,
+    69.4
+   ],
+   "flags": [],
+   "label": "Jeff-1.0-Large: 68.6, official rank 10. Intelligence 71.9, calibration 91.1, speed 88.8, cost 49.2. 95% interval 67.1 to 69.4."
+  },
+  {
+   "key": "torchcast-decision-27b",
+   "name": "torchcast-decision-27b (Torchcast AI, Qwen3.8-27B fine-tune)",
+   "board": "open",
+   "score": 21.273,
+   "intelligence": 71.8,
+   "calibration": 91.4,
+   "speed": 87.7,
+   "cost": 30.3,
+   "ci": [
+    20.9,
+    21.5
+   ],
+   "flags": [],
+   "label": "torchcast-decision-27b (Torchcast AI, Qwen3.8-27B fine-tune): 21.3, official rank 70. Intelligence 71.8, calibration 91.4, speed 87.7, cost 30.3. 95% interval 20.9 to 21.5."
+  },
+  {
+   "key": "metask_jev_rain_31b_trained",
+   "name": "metask-jev-rain-31B-trained",
+   "board": "open",
+   "score": 66.933,
+   "intelligence": 70.7,
+   "calibration": 87.1,
+   "speed": 83.2,
+   "cost": 49.2,
+   "ci": [
+    65.3,
+    68.0
+   ],
+   "flags": [],
+   "label": "metask-jev-rain-31B-trained: 66.9, official rank 18. Intelligence 70.7, calibration 87.1, speed 83.2, cost 49.2. 95% interval 65.3 to 68.0."
+  },
+  {
+   "key": "decisio-gemma-4-31b-v080",
+   "name": "decisio v0.8.0 on gemma-4-31B-it (frozen, FP8 on load, one prefill per state, self-hosted)",
+   "board": "open",
+   "score": 71.693,
+   "intelligence": 70.4,
+   "calibration": 88.7,
+   "speed": 91.2,
+   "cost": 51.7,
+   "ci": [
+    69.9,
+    72.8
+   ],
+   "flags": [],
+   "label": "decisio v0.8.0 on gemma-4-31B-it (frozen, FP8 on load, one prefill per state, self-hosted): 71.7, official rank 2. Intelligence 70.4, calibration 88.7, speed 91.2, cost 51.7. 95% interval 69.9 to 72.8."
+  },
+  {
+   "key": "openjev-thinking",
+   "name": "OpenJev (thinking, BF16)",
+   "board": "open",
+   "score": 17.265,
+   "intelligence": 70.3,
+   "calibration": 81.4,
+   "speed": 72.6,
+   "cost": 28.5,
+   "ci": [
+    16.9,
+    17.5
+   ],
+   "flags": [],
+   "label": "OpenJev (thinking, BF16): 17.3, official rank 83. Intelligence 70.3, calibration 81.4, speed 72.6, cost 28.5. 95% interval 16.9 to 17.5."
+  },
+  {
+   "key": "metask_jev_rain_12b_trained",
+   "name": "metask-jev-rain-12B-trained",
+   "board": "open",
+   "score": 67.604,
+   "intelligence": 67.8,
+   "calibration": 87.9,
+   "speed": 73.4,
+   "cost": 51.5,
+   "ci": [
+    65.9,
+    68.5
+   ],
+   "flags": [],
+   "label": "metask-jev-rain-12B-trained: 67.6, official rank 15. Intelligence 67.8, calibration 87.9, speed 73.4, cost 51.5. 95% interval 65.9 to 68.5."
+  },
+  {
+   "key": "bobcat-flash-1.2",
+   "name": "Bobcat Flash 1.2 (Gemma-4-26B-A4B-it + two merged rank-64 LoRA adapters, typed-decision readout at the first answer position, FP8, self-hosted)",
+   "board": "open",
+   "score": 67.34,
+   "intelligence": 65.8,
+   "calibration": 81.2,
+   "speed": 90.8,
+   "cost": 49.7,
+   "ci": [
+    65.4,
+    68.7
+   ],
+   "flags": [],
+   "label": "Bobcat Flash 1.2 (Gemma-4-26B-A4B-it + two merged rank-64 LoRA adapters, typed-decision readout at the first answer position, FP8, self-hosted): 67.3, official rank 17. Intelligence 65.8, calibration 81.2, speed 90.8, cost 49.7. 95% interval 65.4 to 68.7."
+  },
+  {
+   "key": "eikos-27b",
+   "name": "Eikos-27B (caiovicentino1, Qwen3.8-27B)",
+   "board": "open",
+   "score": 18.078,
+   "intelligence": 64.4,
+   "calibration": 90.0,
+   "speed": 88.1,
+   "cost": 28.7,
+   "ci": [
+    17.7,
+    18.3
+   ],
+   "flags": [],
+   "label": "Eikos-27B (caiovicentino1, Qwen3.8-27B): 18.1, official rank 81. Intelligence 64.4, calibration 90.0, speed 88.1, cost 28.7. 95% interval 17.7 to 18.3."
+  },
+  {
+   "key": "kev-27b",
+   "name": "Kev 27B (Kev 1.0, Qwen3.8-27B)",
+   "board": "open",
+   "score": 5.772,
+   "intelligence": 64.2,
+   "calibration": 93.7,
+   "speed": 83.7,
+   "cost": 18.3,
+   "ci": [
+    5.7,
+    5.8
+   ],
+   "flags": [],
+   "label": "Kev 27B (Kev 1.0, Qwen3.8-27B): 5.8, official rank 107. Intelligence 64.2, calibration 93.7, speed 83.7, cost 18.3. 95% interval 5.7 to 5.8."
+  },
+  {
+   "key": "jev-1.13.0",
+   "name": "Jev 1.13.0 (TypeSafe AI)",
+   "board": "open",
+   "score": 71.491,
+   "intelligence": 63.6,
+   "calibration": 90.6,
+   "speed": 91.5,
+   "cost": 54.7,
+   "ci": [
+    69.1,
+    72.4
+   ],
+   "flags": [
+    "not ranked",
+    "reference"
+   ],
+   "label": "Jev 1.13.0 (TypeSafe AI): 71.5, reference, not ranked. Intelligence 63.6, calibration 90.6, speed 91.5, cost 54.7. 95% interval 69.1 to 72.4."
+  },
+  {
+   "key": "decider-12b",
+   "name": "decider-12b v2 (Mapika)",
+   "board": "open",
+   "score": 70.88,
+   "intelligence": 63.0,
+   "calibration": 82.0,
+   "speed": 90.5,
+   "cost": 57.8,
+   "ci": [
+    68.5,
+    72.2
+   ],
+   "flags": [],
+   "label": "decider-12b v2 (Mapika): 70.9, official rank 4. Intelligence 63.0, calibration 82.0, speed 90.5, cost 57.8. 95% interval 68.5 to 72.2."
+  },
+  {
+   "key": "rene-1-31b-fp8",
+   "name": "Ren\u00e9-1 31B FP8 (salfatigroup, Gemma 4 31B full fine-tune, one-pass option readout)",
+   "board": "open",
+   "score": 55.849,
+   "intelligence": 61.7,
+   "calibration": 90.2,
+   "speed": 87.1,
+   "cost": 46.0,
+   "ci": [
+    54.3,
+    56.6
+   ],
+   "flags": [],
+   "label": "Ren\u00e9-1 31B FP8 (salfatigroup, Gemma 4 31B full fine-tune, one-pass option readout): 55.8, official rank 27. Intelligence 61.7, calibration 90.2, speed 87.1, cost 46.0. 95% interval 54.3 to 56.6."
+  },
+  {
+   "key": "rsi-jev-v6.1-vl-27b",
+   "name": "RSI-Jev v6.1-VL 27B",
+   "board": "open",
+   "score": 21.589,
+   "intelligence": 61.6,
+   "calibration": 85.3,
+   "speed": 84.7,
+   "cost": 31.1,
+   "ci": [
+    21.1,
+    21.9
+   ],
+   "flags": [],
+   "label": "RSI-Jev v6.1-VL 27B: 21.6, official rank 68. Intelligence 61.6, calibration 85.3, speed 84.7, cost 31.1. 95% interval 21.1 to 21.9."
+  },
+  {
+   "key": "open-jev-json-canvas-joshuasp",
+   "name": "Open Jev JSON Canvas (JoshuaSP)",
+   "board": "open",
+   "score": 0.0,
+   "intelligence": 61.2,
+   "calibration": 0.0,
+   "speed": 85.5,
+   "cost": 49.3,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "flags": [],
+   "label": "Open Jev JSON Canvas (JoshuaSP): 0.0, official rank 158. Intelligence 61.2, calibration 0.0, speed 85.5, cost 49.3. 95% interval 0.0 to 0.0."
+  },
+  {
+   "key": "decider-12b-v1",
+   "name": "decider-12b v1, stock Gemma-4-12B-it (Mapika)",
+   "board": "open",
+   "score": 70.424,
+   "intelligence": 60.6,
+   "calibration": 83.8,
+   "speed": 90.5,
+   "cost": 57.8,
+   "ci": [
+    68.1,
+    71.6
+   ],
+   "flags": [],
+   "label": "decider-12b v1, stock Gemma-4-12B-it (Mapika): 70.4, official rank 5. Intelligence 60.6, calibration 83.8, speed 90.5, cost 57.8. 95% interval 68.1 to 71.6."
+  },
+  {
+   "key": "torchcast-decision-12b",
+   "name": "torchcast-decision-12b (Torchcast AI, Gemma-4-12B fine-tune, option-letter logprob readout)",
+   "board": "open",
+   "score": 69.909,
+   "intelligence": 60.5,
+   "calibration": 82.9,
+   "speed": 91.7,
+   "cost": 56.4,
+   "ci": [
+    67.2,
+    71.5
+   ],
+   "flags": [],
+   "label": "torchcast-decision-12b (Torchcast AI, Gemma-4-12B fine-tune, option-letter logprob readout): 69.9, official rank 6. Intelligence 60.5, calibration 82.9, speed 91.7, cost 56.4. 95% interval 67.2 to 71.5."
+  },
+  {
+   "key": "decision-2-0-vega-27b",
+   "name": "Decision 2.0 Vega 27B (vLLM-SR, Qwen3.8-27B)",
+   "board": "open",
+   "score": 18.884,
+   "intelligence": 60.4,
+   "calibration": 82.2,
+   "speed": 83.8,
+   "cost": 29.6,
+   "ci": [
+    18.5,
+    19.1
+   ],
+   "flags": [],
+   "label": "Decision 2.0 Vega 27B (vLLM-SR, Qwen3.8-27B): 18.9, official rank 77. Intelligence 60.4, calibration 82.2, speed 83.8, cost 29.6. 95% interval 18.5 to 19.1."
+  },
+  {
+   "key": "h2o-lightning-4b",
+   "name": "H2O-Lightning-4B v1.1 (H2O.ai, Qwen3.5-4B fine-tune, stock vLLM + open shim)",
+   "board": "open",
+   "score": 72.523,
+   "intelligence": 60.0,
+   "calibration": 90.0,
+   "speed": 92.6,
+   "cost": 60.3,
+   "ci": [
+    69.8,
+    73.8
+   ],
+   "flags": [],
+   "label": "H2O-Lightning-4B v1.1 (H2O.ai, Qwen3.5-4B fine-tune, stock vLLM + open shim): 72.5, official rank 1. Intelligence 60.0, calibration 90.0, speed 92.6, cost 60.3. 95% interval 69.8 to 73.8."
+  },
+  {
+   "key": "winnow-12b",
+   "name": "Winnow-12B Q8",
+   "board": "open",
+   "score": 68.885,
+   "intelligence": 59.5,
+   "calibration": 83.0,
+   "speed": 86.7,
+   "cost": 56.6,
+   "ci": [
+    66.5,
+    70.5
+   ],
+   "flags": [],
+   "label": "Winnow-12B Q8: 68.9, official rank 8. Intelligence 59.5, calibration 83.0, speed 86.7, cost 56.6. 95% interval 66.5 to 70.5."
+  },
+  {
+   "key": "clef",
+   "name": "Clef (Cloudflare, Qwen3.8-27B post-train with a joint schema head, multimodal, measured on text)",
+   "board": "open",
+   "score": 16.754,
+   "intelligence": 59.1,
+   "calibration": 91.6,
+   "speed": 83.4,
+   "cost": 28.1,
+   "ci": [
+    16.3,
+    17.0
+   ],
+   "flags": [
+    "reference"
+   ],
+   "label": "Clef (Cloudflare, Qwen3.8-27B post-train with a joint schema head, multimodal, measured on text): 16.8, official rank 86. Intelligence 59.1, calibration 91.6, speed 83.4, cost 28.1. 95% interval 16.3 to 17.0. Workers AI price scenario (latency unmeasured): 29.4 (would be #55). Cloudflare standard launch input price; sa"
+  },
+  {
+   "key": "xor-26b-a4b",
+   "name": "Xor 26B-A4B (Juspay, Gemma-4-26B-A4B, bf16)",
+   "board": "open",
+   "score": 67.382,
+   "intelligence": 58.7,
+   "calibration": 86.1,
+   "speed": 91.0,
+   "cost": 50.7,
+   "ci": [
+    64.6,
+    68.7
+   ],
+   "flags": [],
+   "label": "Xor 26B-A4B (Juspay, Gemma-4-26B-A4B, bf16): 67.4, official rank 16. Intelligence 58.7, calibration 86.1, speed 91.0, cost 50.7. 95% interval 64.6 to 68.7."
+  },
+  {
+   "key": "decider-chat-gemma4-31b",
+   "name": "decider chat on Gemma-4-31B-it (Mapika, frozen base, inference technique)",
+   "board": "open",
+   "score": 66.08,
+   "intelligence": 58.5,
+   "calibration": 82.6,
+   "speed": 85.8,
+   "cost": 50.8,
+   "ci": [
+    63.8,
+    67.0
+   ],
+   "flags": [],
+   "label": "decider chat on Gemma-4-31B-it (Mapika, frozen base, inference technique): 66.1, official rank 19. Intelligence 58.5, calibration 82.6, speed 85.8, cost 50.8. 95% interval 63.8 to 67.0."
+  },
+  {
+   "key": "simplejev-qwen3.8-27b-selfhost",
+   "name": "SimpleJev Qwen3.8-27B (self-hosted, v1.6 pool)",
+   "board": "open",
+   "score": 3.395,
+   "intelligence": 57.9,
+   "calibration": 91.9,
+   "speed": 76.2,
+   "cost": 15.1,
+   "ci": [
+    3.3,
+    3.4
+   ],
+   "flags": [],
+   "label": "SimpleJev Qwen3.8-27B (self-hosted, v1.6 pool): 3.4, official rank 113. Intelligence 57.9, calibration 91.9, speed 76.2, cost 15.1. 95% interval 3.3 to 3.4."
+  },
+  {
+   "key": "jebadiah-27b",
+   "name": "Jebadiah 27B (Frontier Infra, Qwen3.8-27B LoRA)",
+   "board": "open",
+   "score": 19.255,
+   "intelligence": 57.6,
+   "calibration": 83.0,
+   "speed": 85.8,
+   "cost": 29.9,
+   "ci": [
+    18.7,
+    19.5
+   ],
+   "flags": [],
+   "label": "Jebadiah 27B (Frontier Infra, Qwen3.8-27B LoRA): 19.3, official rank 76. Intelligence 57.6, calibration 83.0, speed 85.8, cost 29.9. 95% interval 18.7 to 19.5."
+  },
+  {
+   "key": "jev-27b-autotrust",
+   "name": "JEV-27B (AutoTrust, Qwen3.8-27B)",
+   "board": "open",
+   "score": 21.291,
+   "intelligence": 56.8,
+   "calibration": 90.9,
+   "speed": 86.9,
+   "cost": 31.0,
+   "ci": [
+    20.7,
+    21.6
+   ],
+   "flags": [],
+   "label": "JEV-27B (AutoTrust, Qwen3.8-27B): 21.3, official rank 69. Intelligence 56.8, calibration 90.9, speed 86.9, cost 31.0. 95% interval 20.7 to 21.6."
+  },
+  {
+   "key": "bespoke-nimble-9b-v3",
+   "name": "Bespoke Nimble 9B v3 (Qwen3.5-9B LoRA)",
+   "board": "open",
+   "score": 53.477,
+   "intelligence": 56.5,
+   "calibration": 77.0,
+   "speed": 89.2,
+   "cost": 46.1,
+   "ci": [
+    51.1,
+    54.8
+   ],
+   "flags": [],
+   "label": "Bespoke Nimble 9B v3 (Qwen3.5-9B LoRA): 53.5, official rank 30. Intelligence 56.5, calibration 77.0, speed 89.2, cost 46.1. 95% interval 51.1 to 54.8."
+  },
+  {
+   "key": "swanone",
+   "name": "swanOne (blockbrain, Qwen3.8-Flash-Next NVFP4)",
+   "board": "open",
+   "score": 43.786,
+   "intelligence": 56.2,
+   "calibration": 88.6,
+   "speed": 82.6,
+   "cost": 42.2,
+   "ci": [
+    42.0,
+    44.7
+   ],
+   "flags": [],
+   "label": "swanOne (blockbrain, Qwen3.8-Flash-Next NVFP4): 43.8, official rank 35. Intelligence 56.2, calibration 88.6, speed 82.6, cost 42.2. 95% interval 42.0 to 44.7."
+  },
+  {
+   "key": "surogate-rune-26b-a4b-v3-v16",
+   "name": "Surogate Rune 26B-A4B v3 (v1.6 pool)",
+   "board": "open",
+   "score": 65.049,
+   "intelligence": 56.1,
+   "calibration": 90.9,
+   "speed": 87.0,
+   "cost": 49.6,
+   "ci": [
+    62.8,
+    66.2
+   ],
+   "flags": [],
+   "label": "Surogate Rune 26B-A4B v3 (v1.6 pool): 65.0, official rank 21. Intelligence 56.1, calibration 90.9, speed 87.0, cost 49.6. 95% interval 62.8 to 66.2."
+  },
+  {
+   "key": "autojev-27b",
+   "name": "AutoJev-27B (denis-pplx, Qwen3.8-27B)",
+   "board": "open",
+   "score": 18.463,
+   "intelligence": 55.6,
+   "calibration": 87.6,
+   "speed": 88.6,
+   "cost": 29.4,
+   "ci": [
+    18.0,
+    18.7
+   ],
+   "flags": [],
+   "label": "AutoJev-27B (denis-pplx, Qwen3.8-27B): 18.5, official rank 80. Intelligence 55.6, calibration 87.6, speed 88.6, cost 29.4. 95% interval 18.0 to 18.7."
+  },
+  {
+   "key": "jev-omni",
+   "name": "Jev-Omni (akhilaaa3, Gemma-4-12B merged)",
+   "board": "open",
+   "score": 67.748,
+   "intelligence": 55.5,
+   "calibration": 87.0,
+   "speed": 85.4,
+   "cost": 56.1,
+   "ci": [
+    65.3,
+    69.0
+   ],
+   "flags": [],
+   "label": "Jev-Omni (akhilaaa3, Gemma-4-12B merged): 67.7, official rank 14. Intelligence 55.5, calibration 87.0, speed 85.4, cost 56.1. 95% interval 65.3 to 69.0."
+  },
+  {
+   "key": "diffusion-jev",
+   "name": "Diffusion Jev (DiffusionGemma 26B-A4B on patched SGLang, 48-step diffusion readout, self-hosted)",
+   "board": "open",
+   "score": 59.33,
+   "intelligence": 54.9,
+   "calibration": 61.3,
+   "speed": 86.8,
+   "cost": 49.6,
+   "ci": [
+    52.8,
+    61.3
+   ],
+   "flags": [],
+   "label": "Diffusion Jev (DiffusionGemma 26B-A4B on patched SGLang, 48-step diffusion readout, self-hosted): 59.3, official rank 26. Intelligence 54.9, calibration 61.3, speed 86.8, cost 49.6. 95% interval 52.8 to 61.3."
+  },
+  {
+   "key": "cygnet",
+   "name": "Cygnet (blockbrain, frozen Gemma-4-12B-it)",
+   "board": "open",
+   "score": 68.55,
+   "intelligence": 54.8,
+   "calibration": 87.0,
+   "speed": 91.8,
+   "cost": 56.4,
+   "ci": [
+    64.4,
+    69.9
+   ],
+   "flags": [],
+   "label": "Cygnet (blockbrain, frozen Gemma-4-12B-it): 68.6, official rank 11. Intelligence 54.8, calibration 87.0, speed 91.8, cost 56.4. 95% interval 64.4 to 69.9."
+  },
+  {
+   "key": "torchcast-decision-4b-v1.1",
+   "name": "Torchcast Decision 4B (v1.1)",
+   "board": "open",
+   "score": 69.564,
+   "intelligence": 54.2,
+   "calibration": 83.1,
+   "speed": 93.6,
+   "cost": 61.2,
+   "ci": [
+    65.7,
+    71.4
+   ],
+   "flags": [],
+   "label": "Torchcast Decision 4B (v1.1): 69.6, official rank 7. Intelligence 54.2, calibration 83.1, speed 93.6, cost 61.2. 95% interval 65.7 to 71.4."
+  },
+  {
+   "key": "open-jev-zefan-27b-v1.1",
+   "name": "Open-Jev 27B v1.1 (Zefan Cai, LoRA + decision head on Qwen3.8-27B)",
+   "board": "open",
+   "score": 2.881,
+   "intelligence": 52.5,
+   "calibration": 83.5,
+   "speed": 72.5,
+   "cost": 14.4,
+   "ci": [
+    2.6,
+    2.9
+   ],
+   "flags": [],
+   "label": "Open-Jev 27B v1.1 (Zefan Cai, LoRA + decision head on Qwen3.8-27B): 2.9, official rank 117. Intelligence 52.5, calibration 83.5, speed 72.5, cost 14.4. 95% interval 2.6 to 2.9."
+  },
+  {
+   "key": "decisio-gemma-4-12b-v080",
+   "name": "decisio v0.8.0 on gemma-4-12B-it (frozen, one forward pass, self-hosted)",
+   "board": "open",
+   "score": 68.173,
+   "intelligence": 52.3,
+   "calibration": 89.2,
+   "speed": 87.0,
+   "cost": 59.3,
+   "ci": [
+    57.4,
+    69.6
+   ],
+   "flags": [],
+   "label": "decisio v0.8.0 on gemma-4-12B-it (frozen, one forward pass, self-hosted): 68.2, official rank 12. Intelligence 52.3, calibration 89.2, speed 87.0, cost 59.3. 95% interval 57.4 to 69.6."
+  },
+  {
+   "key": "decisio-gemma-4-12b-v090",
+   "name": "decisio v0.9.0 on gemma-4-12B-it (frozen, one prefill per question, self-hosted)",
+   "board": "open",
+   "score": 67.761,
+   "intelligence": 52.3,
+   "calibration": 87.6,
+   "speed": 85.9,
+   "cost": 59.3,
+   "ci": [
+    54.4,
+    69.6
+   ],
+   "flags": [],
+   "label": "decisio v0.9.0 on gemma-4-12B-it (frozen, one prefill per question, self-hosted): 67.8, official rank 13. Intelligence 52.3, calibration 87.6, speed 85.9, cost 59.3. 95% interval 54.4 to 69.6."
+  },
+  {
+   "key": "wald-4b-v2-1",
+   "name": "Wald 4B v2.1",
+   "board": "open",
+   "score": 54.287,
+   "intelligence": 52.0,
+   "calibration": 86.6,
+   "speed": 93.1,
+   "cost": 46.3,
+   "ci": [
+    45.4,
+    55.5
+   ],
+   "flags": [],
+   "label": "Wald 4B v2.1: 54.3, official rank 29. Intelligence 52.0, calibration 86.6, speed 93.1, cost 46.3. 95% interval 45.4 to 55.5."
+  },
+  {
+   "key": "ninfer-qwen3.8-27b",
+   "name": "NInfer Qwen3.8-27B NVFP4",
+   "board": "open",
+   "score": 17.716,
+   "intelligence": 51.8,
+   "calibration": 84.2,
+   "speed": 90.5,
+   "cost": 29.1,
+   "ci": [
+    14.7,
+    18.1
+   ],
+   "flags": [],
+   "label": "NInfer Qwen3.8-27B NVFP4: 17.7, official rank 82. Intelligence 51.8, calibration 84.2, speed 90.5, cost 29.1. 95% interval 14.7 to 18.1."
+  },
+  {
+   "key": "hopper-12b-trained",
+   "name": "Hopper 12B trained (gemma-4-12B-it frozen + LoRA r32 unmerged, one forward pass, self-hosted)",
+   "board": "open",
+   "score": 65.784,
+   "intelligence": 51.7,
+   "calibration": 84.6,
+   "speed": 84.6,
+   "cost": 56.2,
+   "ci": [
+    54.7,
+    67.4
+   ],
+   "flags": [],
+   "label": "Hopper 12B trained (gemma-4-12B-it frozen + LoRA r32 unmerged, one forward pass, self-hosted): 65.8, official rank 20. Intelligence 51.7, calibration 84.6, speed 84.6, cost 56.2. 95% interval 54.7 to 67.4."
+  },
+  {
+   "key": "jpt-35b-a3b",
+   "name": "JPT-35B-A3B (Qwen3.5-35B-A3B fine-tune)",
+   "board": "open",
+   "score": 25.358,
+   "intelligence": 51.4,
+   "calibration": 89.9,
+   "speed": 90.5,
+   "cost": 33.6,
+   "ci": [
+    20.2,
+    25.9
+   ],
+   "flags": [],
+   "label": "JPT-35B-A3B (Qwen3.5-35B-A3B fine-tune): 25.4, official rank 61. Intelligence 51.4, calibration 89.9, speed 90.5, cost 33.6. 95% interval 20.2 to 25.9."
+  },
+  {
+   "key": "metask-jev-rain-4b",
+   "name": "Metask rain 4B",
+   "board": "open",
+   "score": 62.697,
+   "intelligence": 51.1,
+   "calibration": 80.9,
+   "speed": 79.6,
+   "cost": 51.8,
+   "ci": [
+    47.3,
+    64.2
+   ],
+   "flags": [],
+   "label": "Metask rain 4B: 62.7, official rank 24. Intelligence 51.1, calibration 80.9, speed 79.6, cost 51.8. 95% interval 47.3 to 64.2."
+  },
+  {
+   "key": "gev-26b-decide",
+   "name": "GEV-26B-Decide (AutoTrust, Gemma-4-26B-A4B + LoRA + head)",
+   "board": "open",
+   "score": 64.22,
+   "intelligence": 49.8,
+   "calibration": 90.3,
+   "speed": 89.9,
+   "cost": 51.1,
+   "ci": [
+    48.1,
+    66.3
+   ],
+   "flags": [],
+   "label": "GEV-26B-Decide (AutoTrust, Gemma-4-26B-A4B + LoRA + head): 64.2, official rank 22. Intelligence 49.8, calibration 90.3, speed 89.9, cost 51.1. 95% interval 48.1 to 66.3."
+  },
+  {
+   "key": "blink-v0-3-26b-a4b-nvfp4",
+   "name": "Blink v0.3 26B-A4B",
+   "board": "open",
+   "score": 61.161,
+   "intelligence": 49.2,
+   "calibration": 90.7,
+   "speed": 91.5,
+   "cost": 49.6,
+   "ci": [
+    45.2,
+    64.8
+   ],
+   "flags": [],
+   "label": "Blink v0.3 26B-A4B: 61.2, official rank 25. Intelligence 49.2, calibration 90.7, speed 91.5, cost 49.6. 95% interval 45.2 to 64.8."
+  },
+  {
+   "key": "ninfer-qwen3.8-flash-next",
+   "name": "NInfer Qwen3.8-Flash-Next mixed",
+   "board": "open",
+   "score": 41.968,
+   "intelligence": 49.0,
+   "calibration": 90.4,
+   "speed": 89.3,
+   "cost": 42.5,
+   "ci": [
+    30.3,
+    44.8
+   ],
+   "flags": [],
+   "label": "NInfer Qwen3.8-Flash-Next mixed: 42.0, official rank 38. Intelligence 49.0, calibration 90.4, speed 89.3, cost 42.5. 95% interval 30.3 to 44.8."
+  },
+  {
+   "key": "spx-cd-omni",
+   "name": "SPX-CD-Omni (SurdAI, google/gemma-4-12B-it + LoRA r32, one forward pass, self-hosted)",
+   "board": "open",
+   "score": 63.164,
+   "intelligence": 48.8,
+   "calibration": 87.5,
+   "speed": 89.4,
+   "cost": 58.3,
+   "ci": [
+    49.0,
+    68.6
+   ],
+   "flags": [],
+   "label": "SPX-CD-Omni (SurdAI, google/gemma-4-12B-it + LoRA r32, one forward pass, self-hosted): 63.2, official rank 23. Intelligence 48.8, calibration 87.5, speed 89.4, cost 58.3. 95% interval 49.0 to 68.6."
+  },
+  {
+   "key": "decider-35b-a3b",
+   "name": "decider-35b-a3b (Mapika)",
+   "board": "open",
+   "score": 24.773,
+   "intelligence": 48.7,
+   "calibration": 83.6,
+   "speed": 91.3,
+   "cost": 34.4,
+   "ci": [
+    18.7,
+    26.6
+   ],
+   "flags": [],
+   "label": "decider-35b-a3b (Mapika): 24.8, official rank 62. Intelligence 48.7, calibration 83.6, speed 91.3, cost 34.4. 95% interval 18.7 to 26.6."
+  },
+  {
+   "key": "jade",
+   "name": "JADE (Qwen3.8-27B LoRA)",
+   "board": "open",
+   "score": 20.194,
+   "intelligence": 47.9,
+   "calibration": 50.6,
+   "speed": 85.5,
+   "cost": 33.6,
+   "ci": [
+    16.7,
+    22.5
+   ],
+   "flags": [],
+   "label": "JADE (Qwen3.8-27B LoRA): 20.2, official rank 74. Intelligence 47.9, calibration 50.6, speed 85.5, cost 33.6. 95% interval 16.7 to 22.5."
+  },
+  {
+   "key": "apus-openjev-v1-9b",
+   "name": "APUS-OpenJev-v1-9B (merged bf16 checkpoint-3000 on Qwen3.5-9B, their own native runtime, full depth, self-hosted)",
+   "board": "open",
+   "score": 49.18,
+   "intelligence": 47.2,
+   "calibration": 66.6,
+   "speed": 82.2,
+   "cost": 48.7,
+   "ci": [
+    33.0,
+    56.6
+   ],
+   "flags": [],
+   "label": "APUS-OpenJev-v1-9B (merged bf16 checkpoint-3000 on Qwen3.5-9B, their own native runtime, full depth, self-hosted): 49.2, official rank 31. Intelligence 47.2, calibration 66.6, speed 82.2, cost 48.7. 95% interval 33.0 to 56.6."
+  },
+  {
+   "key": "jevone",
+   "name": "JevOne",
+   "board": "open",
+   "score": 31.145,
+   "intelligence": 46.0,
+   "calibration": 91.8,
+   "speed": 89.8,
+   "cost": 39.8,
+   "ci": [
+    23.2,
+    37.8
+   ],
+   "flags": [],
+   "label": "JevOne: 31.1, official rank 52. Intelligence 46.0, calibration 91.8, speed 89.8, cost 39.8. 95% interval 23.2 to 37.8."
+  },
+  {
+   "key": "aplomb-1",
+   "name": "Aplomb 1 (5.3B decision model on Qwen3.5-4B, trained readout head, self-hosted)",
+   "board": "open",
+   "score": 54.558,
+   "intelligence": 45.8,
+   "calibration": 89.2,
+   "speed": 88.9,
+   "cost": 57.9,
+   "ci": [
+    40.0,
+    66.6
+   ],
+   "flags": [],
+   "label": "Aplomb 1 (5.3B decision model on Qwen3.5-4B, trained readout head, self-hosted): 54.6, official rank 28. Intelligence 45.8, calibration 89.2, speed 88.9, cost 57.9. 95% interval 40.0 to 66.6."
+  },
+  {
+   "key": "open-jev-zefan-9b",
+   "name": "Open-Jev 9B (Zefan Cai)",
+   "board": "open",
+   "score": 17.046,
+   "intelligence": 43.9,
+   "calibration": 79.8,
+   "speed": 74.4,
+   "cost": 33.1,
+   "ci": [
+    12.0,
+    21.5
+   ],
+   "flags": [],
+   "label": "Open-Jev 9B (Zefan Cai): 17.0, official rank 84. Intelligence 43.9, calibration 79.8, speed 74.4, cost 33.1. 95% interval 12.0 to 21.5."
+  },
+  {
+   "key": "bev-bonsai-27b",
+   "name": "Bev / Bonsai 27B",
+   "board": "open",
+   "score": 11.739,
+   "intelligence": 43.8,
+   "calibration": 88.5,
+   "speed": 73.0,
+   "cost": 28.2,
+   "ci": [
+    8.6,
+    14.6
+   ],
+   "flags": [],
+   "label": "Bev / Bonsai 27B: 11.7, official rank 92. Intelligence 43.8, calibration 88.5, speed 73.0, cost 28.2. 95% interval 8.6 to 14.6."
+  },
+  {
+   "key": "litjev",
+   "name": "LitJev (Qwen3.8-27B)",
+   "board": "open",
+   "score": 11.459,
+   "intelligence": 43.3,
+   "calibration": 89.9,
+   "speed": 68.2,
+   "cost": 28.4,
+   "ci": [
+    8.7,
+    14.8
+   ],
+   "flags": [],
+   "label": "LitJev (Qwen3.8-27B): 11.5, official rank 93. Intelligence 43.3, calibration 89.9, speed 68.2, cost 28.4. 95% interval 8.7 to 14.8."
+  },
+  {
+   "key": "spark-s1-4b-v6",
+   "name": "spark-s1-4b-v6 (Open Spark Jev, abhishek085)",
+   "board": "open",
+   "score": 44.902,
+   "intelligence": 43.2,
+   "calibration": 64.8,
+   "speed": 87.0,
+   "cost": 60.4,
+   "ci": [
+    29.8,
+    55.4
+   ],
+   "flags": [],
+   "label": "spark-s1-4b-v6 (Open Spark Jev, abhishek085): 44.9, official rank 34. Intelligence 43.2, calibration 64.8, speed 87.0, cost 60.4. 95% interval 29.8 to 55.4."
+  },
+  {
+   "key": "nimble-9b",
+   "name": "Bespoke Nimble 9B (Bespoke Labs)",
+   "board": "open",
+   "score": 21.083,
+   "intelligence": 43.1,
+   "calibration": 69.9,
+   "speed": 86.1,
+   "cost": 36.8,
+   "ci": [
+    15.0,
+    26.1
+   ],
+   "flags": [],
+   "label": "Bespoke Nimble 9B (Bespoke Labs): 21.1, official rank 71. Intelligence 43.1, calibration 69.9, speed 86.1, cost 36.8. 95% interval 15.0 to 26.1."
+  },
+  {
+   "key": "plumb-4b",
+   "name": "Plumb-4B (crh225, JevK5 v0.2 + LoRA)",
+   "board": "open",
+   "score": 48.282,
+   "intelligence": 43.0,
+   "calibration": 87.9,
+   "speed": 93.8,
+   "cost": 63.1,
+   "ci": [
+    34.2,
+    62.1
+   ],
+   "flags": [],
+   "label": "Plumb-4B (crh225, JevK5 v0.2 + LoRA): 48.3, official rank 32. Intelligence 43.0, calibration 87.9, speed 93.8, cost 63.1. 95% interval 34.2 to 62.1."
+  },
+  {
+   "key": "messier-one-v0.2",
+   "name": "Messier One v0.2 (Qwen3.5-4B fine-tune, one prefill, self-hosted)",
+   "board": "open",
+   "score": 45.291,
+   "intelligence": 42.4,
+   "calibration": 73.9,
+   "speed": 92.7,
+   "cost": 64.8,
+   "ci": [
+    29.5,
+    57.7
+   ],
+   "flags": [],
+   "label": "Messier One v0.2 (Qwen3.5-4B fine-tune, one prefill, self-hosted): 45.3, official rank 33. Intelligence 42.4, calibration 73.9, speed 92.7, cost 64.8. 95% interval 29.5 to 57.7."
+  },
+  {
+   "key": "classone-qwen3.5-9b",
+   "name": "ClassOne Qwen 3.5 9B (Qwen3.5-9B backbone with ClassOne decision heads, schema-constrained single forward pass, self-hosted)",
+   "board": "open",
+   "score": 38.542,
+   "intelligence": 42.2,
+   "calibration": 58.7,
+   "speed": 90.2,
+   "cost": 49.3,
+   "ci": [
+    25.0,
+    50.9
+   ],
+   "flags": [],
+   "label": "ClassOne Qwen 3.5 9B (Qwen3.5-9B backbone with ClassOne decision heads, schema-constrained single forward pass, self-hosted): 38.5, official rank 42. Intelligence 42.2, calibration 58.7, speed 90.2, cost 49.3. 95% interval 25.0 to 50.9."
+  },
+  {
+   "key": "clef-flash",
+   "name": "Clef-Flash (Cloudflare, Qwen3.5-9B post-train with a joint schema head, multimodal, measured on text)",
+   "board": "open",
+   "score": 36.635,
+   "intelligence": 42.2,
+   "calibration": 85.5,
+   "speed": 88.4,
+   "cost": 46.8,
+   "ci": [
+    26.6,
+    45.2
+   ],
+   "flags": [
+    "reference"
+   ],
+   "label": "Clef-Flash (Cloudflare, Qwen3.5-9B post-train with a joint schema head, multimodal, measured on text): 36.6, official rank 46. Intelligence 42.2, calibration 85.5, speed 88.4, cost 46.8. 95% interval 26.6 to 45.2. Workers AI price scenario (latency unmeasured): 39.2 (would be #42). Cloudflare standard launch input pric"
+  },
+  {
+   "key": "jev-local",
+   "name": "jev-local (Qwen3.5-9B)",
+   "board": "open",
+   "score": 41.329,
+   "intelligence": 41.9,
+   "calibration": 73.1,
+   "speed": 75.6,
+   "cost": 58.9,
+   "ci": [
+    29.1,
+    52.9
+   ],
+   "flags": [],
+   "label": "jev-local (Qwen3.5-9B): 41.3, official rank 39. Intelligence 41.9, calibration 73.1, speed 75.6, cost 58.9. 95% interval 29.1 to 52.9."
+  },
+  {
+   "key": "qwen35-9b-jev-data-mix-v2",
+   "name": "Qwen3.5-9B Jev-like data-mix v2",
+   "board": "open",
+   "score": 33.59,
+   "intelligence": 41.9,
+   "calibration": 79.8,
+   "speed": 85.4,
+   "cost": 45.7,
+   "ci": [
+    22.9,
+    41.7
+   ],
+   "flags": [],
+   "label": "Qwen3.5-9B Jev-like data-mix v2: 33.6, official rank 50. Intelligence 41.9, calibration 79.8, speed 85.4, cost 45.7. 95% interval 22.9 to 41.7."
+  },
+  {
+   "key": "quyet-1-0-medium",
+   "name": "Quyet-1.0-Medium (Chinh Nguyen, Qwen3.5-4B decoder, option-letter logits)",
+   "board": "open",
+   "score": 43.589,
+   "intelligence": 41.7,
+   "calibration": 76.8,
+   "speed": 89.5,
+   "cost": 63.4,
+   "ci": [
+    30.8,
+    57.2
+   ],
+   "flags": [],
+   "label": "Quyet-1.0-Medium (Chinh Nguyen, Qwen3.5-4B decoder, option-letter logits): 43.6, official rank 36. Intelligence 41.7, calibration 76.8, speed 89.5, cost 63.4. 95% interval 30.8 to 57.2."
+  },
+  {
+   "key": "lev",
+   "name": "lev (Interfaze AI, Qwen3.5-4B + LoRA r32, label-token readout + candidate-path head, per-bucket temperatures)",
+   "board": "open",
+   "score": 42.178,
+   "intelligence": 41.1,
+   "calibration": 82.3,
+   "speed": 88.0,
+   "cost": 61.8,
+   "ci": [
+    28.7,
+    50.7
+   ],
+   "flags": [],
+   "label": "lev (Interfaze AI, Qwen3.5-4B + LoRA r32, label-token readout + candidate-path head, per-bucket temperatures): 42.2, official rank 37. Intelligence 41.1, calibration 82.3, speed 88.0, cost 61.8. 95% interval 28.7 to 50.7."
+  },
+  {
+   "key": "wald-4b-v2",
+   "name": "Wald 4B",
+   "board": "open",
+   "score": 39.969,
+   "intelligence": 41.1,
+   "calibration": 78.4,
+   "speed": 82.2,
+   "cost": 54.3,
+   "ci": [
+    27.7,
+    52.6
+   ],
+   "flags": [],
+   "label": "Wald 4B: 40.0, official rank 41. Intelligence 41.1, calibration 78.4, speed 82.2, cost 54.3. 95% interval 27.7 to 52.6."
+  },
+  {
+   "key": "decider-4b-v2",
+   "name": "decider-4b v2 (Mapika)",
+   "board": "open",
+   "score": 41.241,
+   "intelligence": 40.1,
+   "calibration": 89.6,
+   "speed": 91.8,
+   "cost": 64.5,
+   "ci": [
+    28.7,
+    49.9
+   ],
+   "flags": [],
+   "label": "decider-4b v2 (Mapika): 41.2, official rank 40. Intelligence 40.1, calibration 89.6, speed 91.8, cost 64.5. 95% interval 28.7 to 49.9."
+  },
+  {
+   "key": "kahn1",
+   "name": "Kahn1 4B (Okura66, Qwen3.5-4B LoRA merge, author's sysone engine)",
+   "board": "open",
+   "score": 31.118,
+   "intelligence": 39.7,
+   "calibration": 83.8,
+   "speed": 90.0,
+   "cost": 46.4,
+   "ci": [
+    20.7,
+    39.3
+   ],
+   "flags": [],
+   "label": "Kahn1 4B (Okura66, Qwen3.5-4B LoRA merge, author's sysone engine): 31.1, official rank 53. Intelligence 39.7, calibration 83.8, speed 90.0, cost 46.4. 95% interval 20.7 to 39.3."
+  },
+  {
+   "key": "decisor_4b",
+   "name": "decisor-4b",
+   "board": "open",
+   "score": 35.342,
+   "intelligence": 39.6,
+   "calibration": 51.9,
+   "speed": 91.9,
+   "cost": 64.0,
+   "ci": [
+    24.7,
+    45.9
+   ],
+   "flags": [],
+   "label": "decisor-4b: 35.3, official rank 48. Intelligence 39.6, calibration 51.9, speed 91.9, cost 64.0. 95% interval 24.7 to 45.9."
+  },
+  {
+   "key": "metask-jev-4b",
+   "name": "metask-jev-4b",
+   "board": "open",
+   "score": 37.349,
+   "intelligence": 39.2,
+   "calibration": 84.4,
+   "speed": 90.8,
+   "cost": 57.7,
+   "ci": [
+    24.4,
+    47.9
+   ],
+   "flags": [],
+   "label": "metask-jev-4b: 37.3, official rank 44. Intelligence 39.2, calibration 84.4, speed 90.8, cost 57.7. 95% interval 24.4 to 47.9."
+  },
+  {
+   "key": "deck-4b-v1-0",
+   "name": "deck-4B v1.0 (krishna765, JevK5 + LoRA, FP8 weight-only)",
+   "board": "open",
+   "score": 37.265,
+   "intelligence": 38.6,
+   "calibration": 88.6,
+   "speed": 89.9,
+   "cost": 63.5,
+   "ci": [
+    24.0,
+    50.4
+   ],
+   "flags": [],
+   "label": "deck-4B v1.0 (krishna765, JevK5 + LoRA, FP8 weight-only): 37.3, official rank 45. Intelligence 38.6, calibration 88.6, speed 89.9, cost 63.5. 95% interval 24.0 to 50.4."
+  },
+  {
+   "key": "jevk5-v0.3-4b",
+   "name": "JevK5 v0.3 (4B)",
+   "board": "open",
+   "score": 37.365,
+   "intelligence": 38.5,
+   "calibration": 89.9,
+   "speed": 93.9,
+   "cost": 63.1,
+   "ci": [
+    24.2,
+    49.6
+   ],
+   "flags": [],
+   "label": "JevK5 v0.3 (4B): 37.4, official rank 43. Intelligence 38.5, calibration 89.9, speed 93.9, cost 63.1. 95% interval 24.2 to 49.6."
+  },
+  {
+   "key": "evalengine-decision-4b",
+   "name": "Decision-4B (Eval Engine / Chromia)",
+   "board": "open",
+   "score": 35.432,
+   "intelligence": 37.9,
+   "calibration": 80.3,
+   "speed": 91.1,
+   "cost": 65.9,
+   "ci": [
+    21.8,
+    47.3
+   ],
+   "flags": [],
+   "label": "Decision-4B (Eval Engine / Chromia): 35.4, official rank 47. Intelligence 37.9, calibration 80.3, speed 91.1, cost 65.9. 95% interval 21.8 to 47.3."
+  },
+  {
+   "key": "janus-4b",
+   "name": "janus 4B (Icarus AI / cmxu, Qwen3.5-4B + LoRA r64 and pointer decision head)",
+   "board": "open",
+   "score": 35.184,
+   "intelligence": 37.6,
+   "calibration": 88.1,
+   "speed": 93.2,
+   "cost": 64.4,
+   "ci": [
+    21.8,
+    45.6
+   ],
+   "flags": [],
+   "label": "janus 4B (Icarus AI / cmxu, Qwen3.5-4B + LoRA r64 and pointer decision head): 35.2, official rank 49. Intelligence 37.6, calibration 88.1, speed 93.2, cost 64.4. 95% interval 21.8 to 45.6."
+  },
+  {
+   "key": "jevk5-v02",
+   "name": "JevK5 v0.2.0",
+   "board": "open",
+   "score": 32.099,
+   "intelligence": 36.3,
+   "calibration": 89.4,
+   "speed": 91.6,
+   "cost": 63.1,
+   "ci": [
+    21.3,
+    41.5
+   ],
+   "flags": [],
+   "label": "JevK5 v0.2.0: 32.1, official rank 51. Intelligence 36.3, calibration 89.4, speed 91.6, cost 63.1. 95% interval 21.3 to 41.5."
+  },
+  {
+   "key": "typecastlm-1.4.0",
+   "name": "TypeCastLM 1.4.0 (Mikhail Gribov, Qwen3.5-4B computed head)",
+   "board": "open",
+   "score": 29.827,
+   "intelligence": 35.4,
+   "calibration": 77.4,
+   "speed": 93.0,
+   "cost": 64.8,
+   "ci": [
+    19.1,
+    39.6
+   ],
+   "flags": [],
+   "label": "TypeCastLM 1.4.0 (Mikhail Gribov, Qwen3.5-4B computed head): 29.8, official rank 54. Intelligence 35.4, calibration 77.4, speed 93.0, cost 64.8. 95% interval 19.1 to 39.6."
+  },
+  {
+   "key": "jiwo-4b",
+   "name": "jiwo 4b (Qwen3.5-4B backbone with a trained decision head, one forward pass, native probabilities, self-hosted)",
+   "board": "open",
+   "score": 28.963,
+   "intelligence": 34.8,
+   "calibration": 85.7,
+   "speed": 92.4,
+   "cost": 64.1,
+   "ci": [
+    18.6,
+    39.1
+   ],
+   "flags": [],
+   "label": "jiwo 4b (Qwen3.5-4B backbone with a trained decision head, one forward pass, native probabilities, self-hosted): 29.0, official rank 55. Intelligence 34.8, calibration 85.7, speed 92.4, cost 64.1. 95% interval 18.6 to 39.1."
+  },
+  {
+   "key": "hopper",
+   "name": "Hopper",
+   "board": "open",
+   "score": 28.853,
+   "intelligence": 34.7,
+   "calibration": 90.1,
+   "speed": 91.1,
+   "cost": 62.3,
+   "ci": [
+    19.7,
+    34.2
+   ],
+   "flags": [],
+   "label": "Hopper: 28.9, official rank 56. Intelligence 34.7, calibration 90.1, speed 91.1, cost 62.3. 95% interval 19.7 to 34.2."
+  },
+  {
+   "key": "imajev-4b-rtx5090-a2",
+   "name": "Imajev-4B (RTX 5090)",
+   "board": "open",
+   "score": 28.656,
+   "intelligence": 34.6,
+   "calibration": 89.2,
+   "speed": 90.5,
+   "cost": 63.3,
+   "ci": [
+    21.3,
+    38.4
+   ],
+   "flags": [],
+   "label": "Imajev-4B (RTX 5090): 28.7, official rank 57. Intelligence 34.6, calibration 89.2, speed 90.5, cost 63.3. 95% interval 21.3 to 38.4."
+  },
+  {
+   "key": "standard_one_8b_sh",
+   "name": "Standard One 8B SH (Standard Thinking)",
+   "board": "open",
+   "score": 18.747,
+   "intelligence": 34.5,
+   "calibration": 85.5,
+   "speed": 84.3,
+   "cost": 43.2,
+   "ci": [
+    12.6,
+    23.8
+   ],
+   "flags": [],
+   "label": "Standard One 8B SH (Standard Thinking): 18.7, official rank 78. Intelligence 34.5, calibration 85.5, speed 84.3, cost 43.2. 95% interval 12.6 to 23.8."
+  },
+  {
+   "key": "clef-omni",
+   "name": "Clef-omni",
+   "board": "open",
+   "score": 6.066,
+   "intelligence": 34.5,
+   "calibration": 82.2,
+   "speed": 86.8,
+   "cost": 26.8,
+   "ci": [
+    3.9,
+    8.6
+   ],
+   "flags": [],
+   "label": "Clef-omni: 6.1, official rank 106. Intelligence 34.5, calibration 82.2, speed 86.8, cost 26.8. 95% interval 3.9 to 8.6."
+  },
+  {
+   "key": "uniphore-4b-decider",
+   "name": "Uniphore-4B-Decider",
+   "board": "open",
+   "score": 27.184,
+   "intelligence": 34.2,
+   "calibration": 80.0,
+   "speed": 87.7,
+   "cost": 64.7,
+   "ci": [
+    16.6,
+    36.7
+   ],
+   "flags": [],
+   "label": "Uniphore-4B-Decider: 27.2, official rank 58. Intelligence 34.2, calibration 80.0, speed 87.7, cost 64.7. 95% interval 16.6 to 36.7."
+  },
+  {
+   "key": "raw-qwen3-4b-instruct-2507",
+   "name": "Raw Qwen3 4B Instruct 2507 direct logits",
+   "board": "open",
+   "score": 21.792,
+   "intelligence": 34.0,
+   "calibration": 35.2,
+   "speed": 91.2,
+   "cost": 63.4,
+   "ci": [
+    13.8,
+    29.0
+   ],
+   "flags": [],
+   "label": "Raw Qwen3 4B Instruct 2507 direct logits: 21.8, official rank 66. Intelligence 34.0, calibration 35.2, speed 91.2, cost 63.4. 95% interval 13.8 to 29.0."
+  },
+  {
+   "key": "jqv",
+   "name": "jqv (Qwen3-32B zero-shot)",
+   "board": "open",
+   "score": 25.391,
+   "intelligence": 33.9,
+   "calibration": 89.9,
+   "speed": 83.1,
+   "cost": 51.2,
+   "ci": [
+    15.5,
+    35.9
+   ],
+   "flags": [],
+   "label": "jqv (Qwen3-32B zero-shot): 25.4, official rank 60. Intelligence 33.9, calibration 89.9, speed 83.1, cost 51.2. 95% interval 15.5 to 35.9."
+  },
+  {
+   "key": "malkuth-4b",
+   "name": "Malkuth-4B (newfull5, Kev post-train)",
+   "board": "open",
+   "score": 26.197,
+   "intelligence": 33.8,
+   "calibration": 88.4,
+   "speed": 89.5,
+   "cost": 55.8,
+   "ci": [
+    17.6,
+    34.6
+   ],
+   "flags": [],
+   "label": "Malkuth-4B (newfull5, Kev post-train): 26.2, official rank 59. Intelligence 33.8, calibration 88.4, speed 89.5, cost 55.8. 95% interval 17.6 to 34.6."
+  },
+  {
+   "key": "standard_one_3b_sh",
+   "name": "Standard One 3B SH (Standard Thinking)",
+   "board": "open",
+   "score": 21.728,
+   "intelligence": 32.8,
+   "calibration": 78.4,
+   "speed": 86.6,
+   "cost": 48.8,
+   "ci": [
+    12.9,
+    27.6
+   ],
+   "flags": [],
+   "label": "Standard One 3B SH (Standard Thinking): 21.7, official rank 67. Intelligence 32.8, calibration 78.4, speed 86.6, cost 48.8. 95% interval 12.9 to 27.6."
+  },
+  {
+   "key": "standardone-8b",
+   "name": "Standard One 8B (Standard Thinking)",
+   "board": "open",
+   "score": 16.917,
+   "intelligence": 32.8,
+   "calibration": 84.0,
+   "speed": 92.8,
+   "cost": 43.3,
+   "ci": [
+    11.0,
+    24.2
+   ],
+   "flags": [],
+   "label": "Standard One 8B (Standard Thinking): 16.9, official rank 85. Intelligence 32.8, calibration 84.0, speed 92.8, cost 43.3. 95% interval 11.0 to 24.2."
+  },
+  {
+   "key": "coco-decision-4b",
+   "name": "CoCo-Decision-4B (corners-ai, LoRA on Qwen3.5-4B, option-label logits of one pass, served by oh-my-jev)",
+   "board": "open",
+   "score": 24.648,
+   "intelligence": 32.7,
+   "calibration": 81.2,
+   "speed": 91.4,
+   "cost": 65.2,
+   "ci": [
+    19.6,
+    33.5
+   ],
+   "flags": [],
+   "label": "CoCo-Decision-4B (corners-ai, LoRA on Qwen3.5-4B, option-label logits of one pass, served by oh-my-jev): 24.6, official rank 63. Intelligence 32.7, calibration 81.2, speed 91.4, cost 65.2. 95% interval 19.6 to 33.5."
+  },
+  {
+   "key": "manchego-v21-v15",
+   "name": "Manchego v2.1",
+   "board": "open",
+   "score": 24.487,
+   "intelligence": 32.5,
+   "calibration": 84.0,
+   "speed": 90.7,
+   "cost": 64.3,
+   "ci": [
+    17.5,
+    31.0
+   ],
+   "flags": [],
+   "label": "Manchego v2.1: 24.5, official rank 64. Intelligence 32.5, calibration 84.0, speed 90.7, cost 64.3. 95% interval 17.5 to 31.0."
+  },
+  {
+   "key": "decision-4b-v12",
+   "name": "Decision 4B v1.2 (FlyMyJev, Qwen3.5-4B + LoRA)",
+   "board": "open",
+   "score": 24.464,
+   "intelligence": 32.4,
+   "calibration": 88.4,
+   "speed": 93.9,
+   "cost": 63.1,
+   "ci": [
+    15.4,
+    34.3
+   ],
+   "flags": [],
+   "label": "Decision 4B v1.2 (FlyMyJev, Qwen3.5-4B + LoRA): 24.5, official rank 65. Intelligence 32.4, calibration 88.4, speed 93.9, cost 63.1. 95% interval 15.4 to 34.3."
+  },
+  {
+   "key": "reflex-4b",
+   "name": "reflex 4B (kshetrajna12)",
+   "board": "open",
+   "score": 20.637,
+   "intelligence": 30.9,
+   "calibration": 87.0,
+   "speed": 68.8,
+   "cost": 63.1,
+   "ci": [
+    14.8,
+    29.2
+   ],
+   "flags": [],
+   "label": "reflex 4B (kshetrajna12): 20.6, official rank 72. Intelligence 30.9, calibration 87.0, speed 68.8, cost 63.1. 95% interval 14.8 to 29.2."
+  },
+  {
+   "key": "typecastlm",
+   "name": "typecastlm (Mikhail Gribov, Qwen3.5-4B computed head)",
+   "board": "open",
+   "score": 19.723,
+   "intelligence": 29.8,
+   "calibration": 83.3,
+   "speed": 92.8,
+   "cost": 64.0,
+   "ci": [
+    12.9,
+    26.1
+   ],
+   "flags": [],
+   "label": "typecastlm (Mikhail Gribov, Qwen3.5-4B computed head): 19.7, official rank 75. Intelligence 29.8, calibration 83.3, speed 92.8, cost 64.0. 95% interval 12.9 to 26.1."
+  },
+  {
+   "key": "jev-qwen3.5-9b-base-nvfp4",
+   "name": "JEV Qwen3.5-9B Base NVFP4",
+   "board": "open",
+   "score": 15.976,
+   "intelligence": 29.3,
+   "calibration": 85.0,
+   "speed": 93.6,
+   "cost": 47.6,
+   "ci": [
+    10.6,
+    22.6
+   ],
+   "flags": [],
+   "label": "JEV Qwen3.5-9B Base NVFP4: 16.0, official rank 88. Intelligence 29.3, calibration 85.0, speed 93.6, cost 47.6. 95% interval 10.6 to 22.6."
+  },
+  {
+   "key": "system-one-sg",
+   "name": "system-one (Qwen3-8B, Sean Goedecke)",
+   "board": "open",
+   "score": 11.028,
+   "intelligence": 29.3,
+   "calibration": 30.2,
+   "speed": 90.9,
+   "cost": 45.0,
+   "ci": [
+    5.9,
+    15.7
+   ],
+   "flags": [],
+   "label": "system-one (Qwen3-8B, Sean Goedecke): 11.0, official rank 95. Intelligence 29.3, calibration 30.2, speed 90.9, cost 45.0. 95% interval 5.9 to 15.7."
+  },
+  {
+   "key": "kev-8b",
+   "name": "kev 8B (research preview)",
+   "board": "open",
+   "score": 10.623,
+   "intelligence": 29.3,
+   "calibration": 70.8,
+   "speed": 89.0,
+   "cost": 40.4,
+   "ci": [
+    6.3,
+    16.5
+   ],
+   "flags": [],
+   "label": "kev 8B (research preview): 10.6, official rank 96. Intelligence 29.3, calibration 70.8, speed 89.0, cost 40.4. 95% interval 6.3 to 16.5."
+  },
+  {
+   "key": "decision-4b-v11",
+   "name": "Decision 4B v1.1 (FlyMyJev, Qwen3.5-4B + LoRA)",
+   "board": "open",
+   "score": 18.718,
+   "intelligence": 29.1,
+   "calibration": 85.2,
+   "speed": 94.0,
+   "cost": 63.1,
+   "ci": [
+    12.4,
+    27.3
+   ],
+   "flags": [],
+   "label": "Decision 4B v1.1 (FlyMyJev, Qwen3.5-4B + LoRA): 18.7, official rank 79. Intelligence 29.1, calibration 85.2, speed 94.0, cost 63.1. 95% interval 12.4 to 27.3."
+  },
+  {
+   "key": "ryotide_qwen9",
+   "name": "RYOTIDE-Qwen9",
+   "board": "open",
+   "score": 16.135,
+   "intelligence": 28.7,
+   "calibration": 78.3,
+   "speed": 86.7,
+   "cost": 49.4,
+   "ci": [
+    10.3,
+    20.5
+   ],
+   "flags": [],
+   "label": "RYOTIDE-Qwen9: 16.1, official rank 87. Intelligence 28.7, calibration 78.3, speed 86.7, cost 49.4. 95% interval 10.3 to 20.5."
+  },
+  {
+   "key": "classone-gemma4-e4b",
+   "name": "ClassOne Gemma 4 E4B (Gemma-4-E4B backbone with ClassOne decision heads, schema-constrained single forward pass, self-hosted)",
+   "board": "open",
+   "score": 15.607,
+   "intelligence": 28.2,
+   "calibration": 48.5,
+   "speed": 91.8,
+   "cost": 69.3,
+   "ci": [
+    8.9,
+    24.4
+   ],
+   "flags": [],
+   "label": "ClassOne Gemma 4 E4B (Gemma-4-E4B backbone with ClassOne decision heads, schema-constrained single forward pass, self-hosted): 15.6, official rank 89. Intelligence 28.2, calibration 48.5, speed 91.8, cost 69.3. 95% interval 8.9 to 24.4."
+  },
+  {
+   "key": "classone-qwen3.5-4b",
+   "name": "ClassOne Qwen 3.5 4B (Qwen3.5-4B backbone with ClassOne decision heads, schema-constrained single forward pass, self-hosted)",
+   "board": "open",
+   "score": 14.342,
+   "intelligence": 27.3,
+   "calibration": 48.8,
+   "speed": 91.5,
+   "cost": 65.0,
+   "ci": [
+    7.9,
+    20.3
+   ],
+   "flags": [],
+   "label": "ClassOne Qwen 3.5 4B (Qwen3.5-4B backbone with ClassOne decision heads, schema-constrained single forward pass, self-hosted): 14.3, official rank 91. Intelligence 27.3, calibration 48.8, speed 91.5, cost 65.0. 95% interval 7.9 to 20.3."
+  },
+  {
+   "key": "semif-qwen3.5-4b",
+   "name": "SemIf, formerly OpenJev (Qwen3.5-4B, TheoLeeCJ)",
+   "board": "open",
+   "score": 15.517,
+   "intelligence": 27.1,
+   "calibration": 83.6,
+   "speed": 90.8,
+   "cost": 63.1,
+   "ci": [
+    9.2,
+    23.2
+   ],
+   "flags": [],
+   "label": "SemIf, formerly OpenJev (Qwen3.5-4B, TheoLeeCJ): 15.5, official rank 90. Intelligence 27.1, calibration 83.6, speed 90.8, cost 63.1. 95% interval 9.2 to 23.2."
+  },
+  {
+   "key": "raw-qwen3-8b",
+   "name": "Raw Qwen3 8B direct logits",
+   "board": "open",
+   "score": 9.301,
+   "intelligence": 26.5,
+   "calibration": 33.7,
+   "speed": 88.7,
+   "cost": 45.5,
+   "ci": [
+    5.5,
+    13.6
+   ],
+   "flags": [],
+   "label": "Raw Qwen3 8B direct logits: 9.3, official rank 100. Intelligence 26.5, calibration 33.7, speed 88.7, cost 45.5. 95% interval 5.5 to 13.6."
+  },
+  {
+   "key": "localjev-qwen3.5-4b",
+   "name": "local-jev Qwen3.5-4B",
+   "board": "open",
+   "score": 11.438,
+   "intelligence": 24.1,
+   "calibration": 85.8,
+   "speed": 86.1,
+   "cost": 59.3,
+   "ci": [
+    6.9,
+    15.2
+   ],
+   "flags": [],
+   "label": "local-jev Qwen3.5-4B: 11.4, official rank 94. Intelligence 24.1, calibration 85.8, speed 86.1, cost 59.3. 95% interval 6.9 to 15.2."
+  },
+  {
+   "key": "opensourcejev-qwen35-4b-q4km",
+   "name": "OpenSourceJev (Qwen3.5-4B Q4_K_M, native llama.cpp)",
+   "board": "open",
+   "score": 10.263,
+   "intelligence": 23.2,
+   "calibration": 73.9,
+   "speed": 77.1,
+   "cost": 69.1,
+   "ci": [
+    6.5,
+    14.6
+   ],
+   "flags": [],
+   "label": "OpenSourceJev (Qwen3.5-4B Q4_K_M, native llama.cpp): 10.3, official rank 98. Intelligence 23.2, calibration 73.9, speed 77.1, cost 69.1. 95% interval 6.5 to 14.6."
+  },
+  {
+   "key": "decision-2b",
+   "name": "Decision 2B (FlyMy.AI, v59)",
+   "board": "open",
+   "score": 10.29,
+   "intelligence": 22.9,
+   "calibration": 86.8,
+   "speed": 90.4,
+   "cost": 66.4,
+   "ci": [
+    6.1,
+    14.3
+   ],
+   "flags": [],
+   "label": "Decision 2B (FlyMy.AI, v59): 10.3, official rank 97. Intelligence 22.9, calibration 86.8, speed 90.4, cost 66.4. 95% interval 6.1 to 14.3."
+  },
+  {
+   "key": "open-alternative-jev",
+   "name": "open-alternative-jev (Qwen3.5-4B, IkerMoel)",
+   "board": "open",
+   "score": 9.436,
+   "intelligence": 22.3,
+   "calibration": 75.9,
+   "speed": 91.3,
+   "cost": 63.3,
+   "ci": [
+    6.3,
+    15.8
+   ],
+   "flags": [],
+   "label": "open-alternative-jev (Qwen3.5-4B, IkerMoel): 9.4, official rank 99. Intelligence 22.3, calibration 75.9, speed 91.3, cost 63.3. 95% interval 6.3 to 15.8."
+  },
+  {
+   "key": "liquid-d1-3b",
+   "name": "Liquid AI d1-3B",
+   "board": "open",
+   "score": 8.856,
+   "intelligence": 22.1,
+   "calibration": 76.9,
+   "speed": 94.3,
+   "cost": 50.6,
+   "ci": [
+    5.2,
+    12.2
+   ],
+   "flags": [],
+   "label": "Liquid AI d1-3B: 8.9, official rank 101. Intelligence 22.1, calibration 76.9, speed 94.3, cost 50.6. 95% interval 5.2 to 12.2."
+  },
+  {
+   "key": "krino-2b",
+   "name": "Krino-2B",
+   "board": "open",
+   "score": 8.544,
+   "intelligence": 22.0,
+   "calibration": 62.8,
+   "speed": 91.9,
+   "cost": 54.5,
+   "ci": [
+    3.9,
+    13.8
+   ],
+   "flags": [],
+   "label": "Krino-2B: 8.5, official rank 102. Intelligence 22.0, calibration 62.8, speed 91.9, cost 54.5. 95% interval 3.9 to 13.8."
+  },
+  {
+   "key": "open-jev-zefan-2b",
+   "name": "Open-Jev 2B (Zefan Cai)",
+   "board": "open",
+   "score": 3.238,
+   "intelligence": 21.8,
+   "calibration": 73.6,
+   "speed": 77.1,
+   "cost": 33.1,
+   "ci": [
+    1.6,
+    4.6
+   ],
+   "flags": [],
+   "label": "Open-Jev 2B (Zefan Cai): 3.2, official rank 116. Intelligence 21.8, calibration 73.6, speed 77.1, cost 33.1. 95% interval 1.6 to 4.6."
+  },
+  {
+   "key": "decider-2b",
+   "name": "decider-2b (Mapika)",
+   "board": "open",
+   "score": 7.67,
+   "intelligence": 20.7,
+   "calibration": 68.5,
+   "speed": 94.6,
+   "cost": 64.9,
+   "ci": [
+    4.5,
+    13.0
+   ],
+   "flags": [],
+   "label": "decider-2b (Mapika): 7.7, official rank 103. Intelligence 20.7, calibration 68.5, speed 94.6, cost 64.9. 95% interval 4.5 to 13.0."
+  },
+  {
+   "key": "nemotron-diffusion-8b",
+   "name": "Nemotron Diffusion 8B (pst2154, optimized vLLM)",
+   "board": "open",
+   "score": 7.297,
+   "intelligence": 20.4,
+   "calibration": 74.5,
+   "speed": 93.8,
+   "cost": 55.5,
+   "ci": [
+    4.2,
+    10.2
+   ],
+   "flags": [],
+   "label": "Nemotron Diffusion 8B (pst2154, optimized vLLM): 7.3, official rank 104. Intelligence 20.4, calibration 74.5, speed 93.8, cost 55.5. 95% interval 4.2 to 10.2."
+  },
+  {
+   "key": "kev-4b",
+   "name": "kev 4B (research preview)",
+   "board": "open",
+   "score": 6.612,
+   "intelligence": 19.5,
+   "calibration": 68.5,
+   "speed": 90.5,
+   "cost": 65.8,
+   "ci": [
+    4.1,
+    12.0
+   ],
+   "flags": [],
+   "label": "kev 4B (research preview): 6.6, official rank 105. Intelligence 19.5, calibration 68.5, speed 90.5, cost 65.8. 95% interval 4.1 to 12.0."
+  },
+  {
+   "key": "vegaml-4b",
+   "name": "Vega 4B",
+   "board": "open",
+   "score": 3.604,
+   "intelligence": 16.7,
+   "calibration": 58.7,
+   "speed": 84.4,
+   "cost": 47.2,
+   "ci": [
+    1.6,
+    6.6
+   ],
+   "flags": [],
+   "label": "Vega 4B: 3.6, official rank 112. Intelligence 16.7, calibration 58.7, speed 84.4, cost 47.2. 95% interval 1.6 to 6.6."
+  },
+  {
+   "key": "qwen3-reranker-4b",
+   "name": "Qwen3-Reranker-4B",
+   "board": "open",
+   "score": 3.715,
+   "intelligence": 16.3,
+   "calibration": 73.2,
+   "speed": 82.1,
+   "cost": 48.4,
+   "ci": [
+    2.2,
+    5.4
+   ],
+   "flags": [],
+   "label": "Qwen3-Reranker-4B: 3.7, official rank 111. Intelligence 16.3, calibration 73.2, speed 82.1, cost 48.4. 95% interval 2.2 to 5.4."
+  },
+  {
+   "key": "jiwo-0.8b",
+   "name": "jiwo 0.8b (Qwen3.5-0.8B backbone with a trained decision head, one forward pass, native probabilities, self-hosted)",
+   "board": "open",
+   "score": 4.068,
+   "intelligence": 15.9,
+   "calibration": 78.5,
+   "speed": 94.3,
+   "cost": 78.4,
+   "ci": [
+    2.1,
+    6.3
+   ],
+   "flags": [],
+   "label": "jiwo 0.8b (Qwen3.5-0.8B backbone with a trained decision head, one forward pass, native probabilities, self-hosted): 4.1, official rank 109. Intelligence 15.9, calibration 78.5, speed 94.3, cost 78.4. 95% interval 2.1 to 6.3."
+  },
+  {
+   "key": "malkuth-2b",
+   "name": "Malkuth-2B (newfull5, Kev post-train)",
+   "board": "open",
+   "score": 3.992,
+   "intelligence": 15.9,
+   "calibration": 79.3,
+   "speed": 92.0,
+   "cost": 65.6,
+   "ci": [
+    2.2,
+    6.2
+   ],
+   "flags": [],
+   "label": "Malkuth-2B (newfull5, Kev post-train): 4.0, official rank 110. Intelligence 15.9, calibration 79.3, speed 92.0, cost 65.6. 95% interval 2.2 to 6.2."
+  },
+  {
+   "key": "zerank-2",
+   "name": "ZeroEntropy zerank-2",
+   "board": "open",
+   "score": 3.35,
+   "intelligence": 15.6,
+   "calibration": 83.2,
+   "speed": 82.9,
+   "cost": 48.4,
+   "ci": [
+    2.0,
+    4.8
+   ],
+   "flags": [],
+   "label": "ZeroEntropy zerank-2: 3.3, official rank 114. Intelligence 15.6, calibration 83.2, speed 82.9, cost 48.4. 95% interval 2.0 to 4.8."
+  },
+  {
+   "key": "exaone-4.0-1.2b-jev-v0.3",
+   "name": "EXAONE-4.0-1.2B-JEV v0.3 (unofficial fine-tune of LGAI-EXAONE/EXAONE-4.0-1.2B, native option-label softmax, two reads averaged, self-hosted)",
+   "board": "open",
+   "score": 3.267,
+   "intelligence": 14.8,
+   "calibration": 80.5,
+   "speed": 94.1,
+   "cost": 57.9,
+   "ci": [
+    1.7,
+    5.3
+   ],
+   "flags": [],
+   "label": "EXAONE-4.0-1.2B-JEV v0.3 (unofficial fine-tune of LGAI-EXAONE/EXAONE-4.0-1.2B, native option-label softmax, two reads averaged, self-hosted): 3.3, official rank 115. Intelligence 14.8, calibration 80.5, speed 94.1, cost 57.9. 95% interval 1.7 to 5.3."
+  },
+  {
+   "key": "raw-phi-4-mini",
+   "name": "Raw Phi-4 mini direct logits",
+   "board": "open",
+   "score": 2.479,
+   "intelligence": 13.7,
+   "calibration": 57.0,
+   "speed": 91.9,
+   "cost": 53.2,
+   "ci": [
+    1.0,
+    4.1
+   ],
+   "flags": [],
+   "label": "Raw Phi-4 mini direct logits: 2.5, official rank 118. Intelligence 13.7, calibration 57.0, speed 91.9, cost 53.2. 95% interval 1.0 to 4.1."
+  },
+  {
+   "key": "simplejev-qwen3.5-0.8b",
+   "name": "SimpleJev (Qwen3.5-0.8B, CPU)",
+   "board": "open",
+   "score": 2.112,
+   "intelligence": 13.0,
+   "calibration": 50.2,
+   "speed": 58.9,
+   "cost": 70.3,
+   "ci": [
+    0.7,
+    4.4
+   ],
+   "flags": [],
+   "label": "SimpleJev (Qwen3.5-0.8B, CPU): 2.1, official rank 119. Intelligence 13.0, calibration 50.2, speed 58.9, cost 70.3. 95% interval 0.7 to 4.4."
+  },
+  {
+   "key": "smalljev",
+   "name": "smalljev semantic-v9",
+   "board": "open",
+   "score": 0.772,
+   "intelligence": 8.7,
+   "calibration": 77.2,
+   "speed": 90.2,
+   "cost": 60.8,
+   "ci": [
+    0.2,
+    1.6
+   ],
+   "flags": [],
+   "label": "smalljev semantic-v9: 0.8, official rank 120. Intelligence 8.7, calibration 77.2, speed 90.2, cost 60.8. 95% interval 0.2 to 1.6."
+  },
+  {
+   "key": "gutsy-0.8b-v0.3",
+   "name": "Gutsy 0.8B v0.3",
+   "board": "open",
+   "score": 0.76,
+   "intelligence": 8.6,
+   "calibration": 77.5,
+   "speed": 72.9,
+   "cost": 78.4,
+   "ci": [
+    0.4,
+    1.9
+   ],
+   "flags": [],
+   "label": "Gutsy 0.8B v0.3: 0.8, official rank 121. Intelligence 8.6, calibration 77.5, speed 72.9, cost 78.4. 95% interval 0.4 to 1.9."
+  },
+  {
+   "key": "classone-gemma4-e2b",
+   "name": "ClassOne Gemma 4 E2B (Gemma-4-E2B backbone with ClassOne decision heads, schema-constrained single forward pass, self-hosted)",
+   "board": "open",
+   "score": 0.494,
+   "intelligence": 7.8,
+   "calibration": 22.6,
+   "speed": 93.3,
+   "cost": 70.2,
+   "ci": [
+    0.2,
+    1.3
+   ],
+   "flags": [],
+   "label": "ClassOne Gemma 4 E2B (Gemma-4-E2B backbone with ClassOne decision heads, schema-constrained single forward pass, self-hosted): 0.5, official rank 125. Intelligence 7.8, calibration 22.6, speed 93.3, cost 70.2. 95% interval 0.2 to 1.3."
+  },
+  {
+   "key": "kev-0.6b",
+   "name": "kev 0.6B (research preview)",
+   "board": "open",
+   "score": 0.543,
+   "intelligence": 7.6,
+   "calibration": 66.3,
+   "speed": 91.5,
+   "cost": 80.1,
+   "ci": [
+    0.1,
+    1.5
+   ],
+   "flags": [],
+   "label": "kev 0.6B (research preview): 0.5, official rank 122. Intelligence 7.6, calibration 66.3, speed 91.5, cost 80.1. 95% interval 0.1 to 1.5."
+  },
+  {
+   "key": "jul-fast",
+   "name": "jul fast (usejul/jul-decision-minicpm5-2b",
+   "board": "open",
+   "score": 0.517,
+   "intelligence": 7.5,
+   "calibration": 78.1,
+   "speed": 90.7,
+   "cost": 69.0,
+   "ci": [
+    0.2,
+    1.1
+   ],
+   "flags": [],
+   "label": "jul fast (usejul/jul-decision-minicpm5-2b: MiniCPM5-2B fine-tune with a pointer head, option probabilities from one pass, self-hosted via `jul serve`): 0.5, official rank 123. Intelligence 7.5, calibration 78.1, speed 90.7, cost 69.0. 95% interval 0.2 to 1.1."
+  },
+  {
+   "key": "opendecision",
+   "name": "OpenDecision (ModernBERT-large zero-shot)",
+   "board": "open",
+   "score": 0.509,
+   "intelligence": 7.4,
+   "calibration": 68.6,
+   "speed": 87.1,
+   "cost": 79.1,
+   "ci": [
+    0.2,
+    1.1
+   ],
+   "flags": [],
+   "label": "OpenDecision (ModernBERT-large zero-shot): 0.5, official rank 124. Intelligence 7.4, calibration 68.6, speed 87.1, cost 79.1. 95% interval 0.2 to 1.1."
+  },
+  {
+   "key": "mghafiri-qwen3.5-0.8b-decision-model",
+   "name": "Qwen3.5-0.8B Decision Model (Mourad Ghafiri)",
+   "board": "open",
+   "score": 0.472,
+   "intelligence": 7.3,
+   "calibration": 78.0,
+   "speed": 55.9,
+   "cost": 79.5,
+   "ci": [
+    0.2,
+    1.2
+   ],
+   "flags": [],
+   "label": "Qwen3.5-0.8B Decision Model (Mourad Ghafiri): 0.5, official rank 126. Intelligence 7.3, calibration 78.0, speed 55.9, cost 79.5. 95% interval 0.2 to 1.2."
+  },
+  {
+   "key": "deem-0.8-v1",
+   "name": "Deem 0.8B v1",
+   "board": "open",
+   "score": 0.323,
+   "intelligence": 6.5,
+   "calibration": 29.6,
+   "speed": 85.4,
+   "cost": 80.3,
+   "ci": [
+    0.1,
+    0.8
+   ],
+   "flags": [],
+   "label": "Deem 0.8B v1: 0.3, official rank 127. Intelligence 6.5, calibration 29.6, speed 85.4, cost 80.3. 95% interval 0.1 to 0.8."
+  },
+  {
+   "key": "decision-fast",
+   "name": "Decision Fast (FlyMy.AI, v53a)",
+   "board": "open",
+   "score": 0.298,
+   "intelligence": 6.1,
+   "calibration": 75.1,
+   "speed": 91.5,
+   "cost": 80.1,
+   "ci": [
+    0.1,
+    0.8
+   ],
+   "flags": [],
+   "label": "Decision Fast (FlyMy.AI, v53a): 0.3, official rank 128. Intelligence 6.1, calibration 75.1, speed 91.5, cost 80.1. 95% interval 0.1 to 0.8."
+  },
+  {
+   "key": "quyet-1-0-small-en",
+   "name": "Quyet-1.0-Small-EN (Chinh Nguyen, ModernBERT-base encoder with fixed heads)",
+   "board": "open",
+   "score": 0.292,
+   "intelligence": 6.1,
+   "calibration": 73.0,
+   "speed": 94.9,
+   "cost": 89.1,
+   "ci": [
+    0.1,
+    0.9
+   ],
+   "flags": [],
+   "label": "Quyet-1.0-Small-EN (Chinh Nguyen, ModernBERT-base encoder with fixed heads): 0.3, official rank 129. Intelligence 6.1, calibration 73.0, speed 94.9, cost 89.1. 95% interval 0.1 to 0.9."
+  },
+  {
+   "key": "classone-qwen3.5-2b",
+   "name": "ClassOne Qwen 3.5 2B (Qwen3.5-2B backbone with ClassOne decision heads, schema-constrained single forward pass, self-hosted)",
+   "board": "open",
+   "score": 0.238,
+   "intelligence": 5.8,
+   "calibration": 32.6,
+   "speed": 93.1,
+   "cost": 70.2,
+   "ci": [
+    0.1,
+    1.6
+   ],
+   "flags": [],
+   "label": "ClassOne Qwen 3.5 2B (Qwen3.5-2B backbone with ClassOne decision heads, schema-constrained single forward pass, self-hosted): 0.2, official rank 130. Intelligence 5.8, calibration 32.6, speed 93.1, cost 70.2. 95% interval 0.1 to 1.6."
+  },
+  {
+   "key": "raw-qwen3-0.6b",
+   "name": "Raw Qwen3 0.6B direct logits",
+   "board": "open",
+   "score": 0.167,
+   "intelligence": 5.6,
+   "calibration": 10.9,
+   "speed": 93.5,
+   "cost": 77.6,
+   "ci": [
+    0.0,
+    0.4
+   ],
+   "flags": [],
+   "label": "Raw Qwen3 0.6B direct logits: 0.2, official rank 134. Intelligence 5.6, calibration 10.9, speed 93.5, cost 77.6. 95% interval 0.0 to 0.4."
+  },
+  {
+   "key": "laya-typed-decisions",
+   "name": "Laya typed-decisions",
+   "board": "open",
+   "score": 0.217,
+   "intelligence": 5.5,
+   "calibration": 83.0,
+   "speed": 70.8,
+   "cost": 82.5,
+   "ci": [
+    0.0,
+    0.6
+   ],
+   "flags": [],
+   "label": "Laya typed-decisions: 0.2, official rank 131. Intelligence 5.5, calibration 83.0, speed 70.8, cost 82.5. 95% interval 0.0 to 0.6."
+  },
+  {
+   "key": "watersheep",
+   "name": "WaterSheep (Samrat Dutta, ModernBERT-base encoder with calibrated heads, served by the author's own `watersheep --serve`)",
+   "board": "open",
+   "score": 0.195,
+   "intelligence": 5.3,
+   "calibration": 65.8,
+   "speed": 77.6,
+   "cost": 68.7,
+   "ci": [
+    0.1,
+    0.6
+   ],
+   "flags": [],
+   "label": "WaterSheep (Samrat Dutta, ModernBERT-base encoder with calibrated heads, served by the author's own `watersheep --serve`): 0.2, official rank 132. Intelligence 5.3, calibration 65.8, speed 77.6, cost 68.7. 95% interval 0.1 to 0.6."
+  },
+  {
+   "key": "raw-qwen3-1.7b",
+   "name": "Raw Qwen3 1.7B direct logits",
+   "board": "open",
+   "score": 0.137,
+   "intelligence": 5.1,
+   "calibration": 11.5,
+   "speed": 93.2,
+   "cost": 68.5,
+   "ci": [
+    0.0,
+    0.3
+   ],
+   "flags": [],
+   "label": "Raw Qwen3 1.7B direct logits: 0.1, official rank 136. Intelligence 5.1, calibration 11.5, speed 93.2, cost 68.5. 95% interval 0.0 to 0.3."
+  },
+  {
+   "key": "openjev-verdict-1.4",
+   "name": "openJev Verdict 1.4",
+   "board": "open",
+   "score": 0.172,
+   "intelligence": 5.0,
+   "calibration": 75.7,
+   "speed": 81.5,
+   "cost": 86.6,
+   "ci": [
+    0.0,
+    0.5
+   ],
+   "flags": [],
+   "label": "openJev Verdict 1.4: 0.2, official rank 133. Intelligence 5.0, calibration 75.7, speed 81.5, cost 86.6. 95% interval 0.0 to 0.5."
+  },
+  {
+   "key": "lev-350m",
+   "name": "lev-350m (Franck Verrot, LFM2.5-350M)",
+   "board": "open",
+   "score": 0.154,
+   "intelligence": 4.8,
+   "calibration": 81.9,
+   "speed": 94.0,
+   "cost": 80.0,
+   "ci": [
+    0.0,
+    0.4
+   ],
+   "flags": [],
+   "label": "lev-350m (Franck Verrot, LFM2.5-350M): 0.2, official rank 135. Intelligence 4.8, calibration 81.9, speed 94.0, cost 80.0. 95% interval 0.0 to 0.4."
+  },
+  {
+   "key": "kev-0.5b",
+   "name": "kev 0.5B",
+   "board": "open",
+   "score": 0.132,
+   "intelligence": 4.6,
+   "calibration": 61.2,
+   "speed": 92.4,
+   "cost": 80.1,
+   "ci": [
+    0.0,
+    0.4
+   ],
+   "flags": [],
+   "label": "kev 0.5B: 0.1, official rank 137. Intelligence 4.6, calibration 61.2, speed 92.4, cost 80.1. 95% interval 0.0 to 0.4."
+  },
+  {
+   "key": "openjev-verdict",
+   "name": "openJev Verdict (heman10x, ModernBERT-base 151M)",
+   "board": "open",
+   "score": 0.097,
+   "intelligence": 4.1,
+   "calibration": 49.1,
+   "speed": 79.4,
+   "cost": 86.6,
+   "ci": [
+    0.0,
+    0.3
+   ],
+   "flags": [],
+   "label": "openJev Verdict (heman10x, ModernBERT-base 151M): 0.1, official rank 138. Intelligence 4.1, calibration 49.1, speed 79.4, cost 86.6. 95% interval 0.0 to 0.3."
+  },
+  {
+   "key": "quyet-1-0-small",
+   "name": "Quyet-1.0-Small (Chinh Nguyen, SEA-LION-ModernBERT-300M encoder with fixed heads)",
+   "board": "open",
+   "score": 0.09,
+   "intelligence": 4.0,
+   "calibration": 61.0,
+   "speed": 94.9,
+   "cost": 79.6,
+   "ci": [
+    0.0,
+    0.3
+   ],
+   "flags": [],
+   "label": "Quyet-1.0-Small (Chinh Nguyen, SEA-LION-ModernBERT-300M encoder with fixed heads): 0.1, official rank 139. Intelligence 4.0, calibration 61.0, speed 94.9, cost 79.6. 95% interval 0.0 to 0.3."
+  },
+  {
+   "key": "watt-flash-0.1",
+   "name": "watt-flash-0.1 (Zaitgeist Labs, 140M mmBERT-small encoder with an option-marker scorer, one forward pass per request, self-hosted)",
+   "board": "open",
+   "score": 0.075,
+   "intelligence": 3.8,
+   "calibration": 79.4,
+   "speed": 75.8,
+   "cost": 89.0,
+   "ci": [
+    0.0,
+    0.4
+   ],
+   "flags": [],
+   "label": "watt-flash-0.1 (Zaitgeist Labs, 140M mmBERT-small encoder with an option-marker scorer, one forward pass per request, self-hosted): 0.1, official rank 140. Intelligence 3.8, calibration 79.4, speed 75.8, cost 89.0. 95% interval 0.0 to 0.4."
+  },
+  {
+   "key": "quyet-1-0-tiny",
+   "name": "Quyet-1.0-Tiny (Chinh Nguyen, mmBERT-small encoder (16 layers kept) with fixed heads)",
+   "board": "open",
+   "score": 0.071,
+   "intelligence": 3.7,
+   "calibration": 58.5,
+   "speed": 95.1,
+   "cost": 88.4,
+   "ci": [
+    0.0,
+    0.3
+   ],
+   "flags": [],
+   "label": "Quyet-1.0-Tiny (Chinh Nguyen, mmBERT-small encoder (16 layers kept) with fixed heads): 0.1, official rank 141. Intelligence 3.7, calibration 58.5, speed 95.1, cost 88.4. 95% interval 0.0 to 0.3."
+  },
+  {
+   "key": "phocinae-largha-150m-v1",
+   "name": "Phocinae-Largha-150M-v1",
+   "board": "open",
+   "score": 0.066,
+   "intelligence": 3.6,
+   "calibration": 56.9,
+   "speed": 77.1,
+   "cost": 95.3,
+   "ci": [
+    0.0,
+    0.2
+   ],
+   "flags": [],
+   "label": "Phocinae-Largha-150M-v1: 0.1, official rank 142. Intelligence 3.6, calibration 56.9, speed 77.1, cost 95.3. 95% interval 0.0 to 0.2."
+  },
+  {
+   "key": "liquid-d1-omni-600m",
+   "name": "Liquid AI d1-omni-600M",
+   "board": "open",
+   "score": 0.049,
+   "intelligence": 3.3,
+   "calibration": 62.3,
+   "speed": 94.1,
+   "cost": 73.1,
+   "ci": [
+    0.0,
+    0.3
+   ],
+   "flags": [],
+   "label": "Liquid AI d1-omni-600M: 0.0, official rank 143. Intelligence 3.3, calibration 62.3, speed 94.1, cost 73.1. 95% interval 0.0 to 0.3."
+  },
+  {
+   "key": "vegaml-0.8b",
+   "name": "Vega 0.8B",
+   "board": "open",
+   "score": 0.04,
+   "intelligence": 3.1,
+   "calibration": 62.9,
+   "speed": 89.5,
+   "cost": 61.5,
+   "ci": [
+    0.0,
+    0.2
+   ],
+   "flags": [],
+   "label": "Vega 0.8B: 0.0, official rank 144. Intelligence 3.1, calibration 62.9, speed 89.5, cost 61.5. 95% interval 0.0 to 0.2."
+  },
+  {
+   "key": "open-jev-deberta-v3-large",
+   "name": "open-jev-deberta-v3-large (local CPU)",
+   "board": "open",
+   "score": 0.032,
+   "intelligence": 2.8,
+   "calibration": 68.0,
+   "speed": 67.6,
+   "cost": 77.6,
+   "ci": [
+    0.0,
+    0.2
+   ],
+   "flags": [],
+   "label": "open-jev-deberta-v3-large (local CPU): 0.0, official rank 145. Intelligence 2.8, calibration 68.0, speed 67.6, cost 77.6. 95% interval 0.0 to 0.2."
+  },
+  {
+   "key": "modernbert-jev-v2",
+   "name": "modernbert-jev v2",
+   "board": "open",
+   "score": 0.025,
+   "intelligence": 2.6,
+   "calibration": 66.7,
+   "speed": 57.8,
+   "cost": 70.4,
+   "ci": [
+    0.0,
+    0.1
+   ],
+   "flags": [],
+   "label": "modernbert-jev v2: 0.0, official rank 146. Intelligence 2.6, calibration 66.7, speed 57.8, cost 70.4. 95% interval 0.0 to 0.1."
+  },
+  {
+   "key": "julia-1",
+   "name": "Julia-1 (Supersonic Labs)",
+   "board": "open",
+   "score": 0.019,
+   "intelligence": 2.4,
+   "calibration": 17.3,
+   "speed": 79.4,
+   "cost": 89.9,
+   "ci": [
+    0.0,
+    0.1
+   ],
+   "flags": [],
+   "label": "Julia-1 (Supersonic Labs): 0.0, official rank 147. Intelligence 2.4, calibration 17.3, speed 79.4, cost 89.9. 95% interval 0.0 to 0.1."
+  },
+  {
+   "key": "verdict-small",
+   "name": "verdict-small (Manavarya09, multilingual-e5-small 118M)",
+   "board": "open",
+   "score": 0.019,
+   "intelligence": 2.3,
+   "calibration": 72.9,
+   "speed": 89.5,
+   "cost": 100.0,
+   "ci": [
+    0.0,
+    0.1
+   ],
+   "flags": [],
+   "label": "verdict-small (Manavarya09, multilingual-e5-small 118M): 0.0, official rank 148. Intelligence 2.3, calibration 72.9, speed 89.5, cost 100.0. 95% interval 0.0 to 0.1."
+  },
+  {
+   "key": "tacet-sonata",
+   "name": "Tacet Sonata (CodePawl, 144M packed encoder on mmBERT-small, option-marker softmax in one pass, in-process via the author's tacet package)",
+   "board": "open",
+   "score": 0.016,
+   "intelligence": 2.2,
+   "calibration": 46.4,
+   "speed": 80.3,
+   "cost": 89.0,
+   "ci": [
+    0.0,
+    0.1
+   ],
+   "flags": [],
+   "label": "Tacet Sonata (CodePawl, 144M packed encoder on mmBERT-small, option-marker softmax in one pass, in-process via the author's tacet package): 0.0, official rank 149. Intelligence 2.2, calibration 46.4, speed 80.3, cost 89.0. 95% interval 0.0 to 0.1."
+  },
+  {
+   "key": "laya",
+   "name": "Laya (Convai Innovations, ModernBERT-large 421M)",
+   "board": "open",
+   "score": 0.009,
+   "intelligence": 1.8,
+   "calibration": 63.2,
+   "speed": 73.3,
+   "cost": 84.9,
+   "ci": [
+    0.0,
+    0.1
+   ],
+   "flags": [],
+   "label": "Laya (Convai Innovations, ModernBERT-large 421M): 0.0, official rank 150. Intelligence 1.8, calibration 63.2, speed 73.3, cost 84.9. 95% interval 0.0 to 0.1."
+  },
+  {
+   "key": "mxbai-rerank-base-v2",
+   "name": "Mixedbread mxbai-rerank-base-v2",
+   "board": "open",
+   "score": 0.002,
+   "intelligence": 1.1,
+   "calibration": 86.6,
+   "speed": 92.6,
+   "cost": 60.3,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "flags": [],
+   "label": "Mixedbread mxbai-rerank-base-v2: 0.0, official rank 151. Intelligence 1.1, calibration 86.6, speed 92.6, cost 60.3. 95% interval 0.0 to 0.0."
+  },
+  {
+   "key": "laya-multilingual",
+   "name": "Laya multilingual",
+   "board": "open",
+   "score": 0.0,
+   "intelligence": 0.3,
+   "calibration": 33.7,
+   "speed": 77.8,
+   "cost": 82.2,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "flags": [],
+   "label": "Laya multilingual: 0.0, official rank 152. Intelligence 0.3, calibration 33.7, speed 77.8, cost 82.2. 95% interval 0.0 to 0.0."
+  },
+  {
+   "key": "certo",
+   "name": "Certo v1 (AltSlate Labs)",
+   "board": "open",
+   "score": 0.0,
+   "intelligence": 0.2,
+   "calibration": 86.1,
+   "speed": 92.5,
+   "cost": 96.9,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "flags": [],
+   "label": "Certo v1 (AltSlate Labs): 0.0, official rank 153. Intelligence 0.2, calibration 86.1, speed 92.5, cost 96.9. 95% interval 0.0 to 0.0."
+  },
+  {
+   "key": "clm-8b",
+   "name": "CLM-8B (Contrastive-LM, clm-latest)",
+   "board": "open",
+   "score": 0.0,
+   "intelligence": 0.1,
+   "calibration": 40.0,
+   "speed": 92.6,
+   "cost": 50.5,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "flags": [],
+   "label": "CLM-8B (Contrastive-LM, clm-latest): 0.0, official rank 154. Intelligence 0.1, calibration 40.0, speed 92.6, cost 50.5. 95% interval 0.0 to 0.0."
+  },
+  {
+   "key": "bge-reranker-v2-m3",
+   "name": "BAAI bge-reranker-v2-m3",
+   "board": "open",
+   "score": 0.0,
+   "intelligence": 0.1,
+   "calibration": 88.1,
+   "speed": 93.9,
+   "cost": 59.3,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "flags": [],
+   "label": "BAAI bge-reranker-v2-m3: 0.0, official rank 155. Intelligence 0.1, calibration 88.1, speed 93.9, cost 59.3. 95% interval 0.0 to 0.0."
+  },
+  {
+   "key": "gte-reranker-modernbert-base",
+   "name": "Alibaba GTE Reranker ModernBERT-base",
+   "board": "open",
+   "score": 0.0,
+   "intelligence": 0.0,
+   "calibration": 83.5,
+   "speed": 93.8,
+   "cost": 69.3,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "flags": [],
+   "label": "Alibaba GTE Reranker ModernBERT-base: 0.0, official rank 156. Intelligence 0.0, calibration 83.5, speed 93.8, cost 69.3. 95% interval 0.0 to 0.0."
+  },
+  {
+   "key": "mirror",
+   "name": "Mirror",
+   "board": "open",
+   "score": 0.0,
+   "intelligence": 0.0,
+   "calibration": 51.6,
+   "speed": 73.5,
+   "cost": 89.3,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "flags": [],
+   "label": "Mirror: 0.0, official rank 157. Intelligence 0.0, calibration 51.6, speed 73.5, cost 89.3. 95% interval 0.0 to 0.0."
+  }
+ ]
+}
