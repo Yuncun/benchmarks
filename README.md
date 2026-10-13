@@ -1,6 +1,6 @@
 # benchmarks
 
-Decision models on the Jev Decision Index 0.3 public suite. Board scores: Decision Index 0.3.2 snapshot, 2026-10-12. Microsoft-Decision-1: run 2026-10-13 ([method](decision-index/METHOD.md)).
+Decision models on the Jev Decision Index 0.3 public suite. Board scores: [Jev Decision Index](https://huggingface.co/spaces/multimodalart/jev-decision-index) 0.3.2 snapshot, 2026-10-12. Microsoft-Decision-1: run 2026-10-13 ([method](decision-index/METHOD.md)).
 
 | Rank | Model | Public index | Full score (board) |
 |---|---|---|---|
