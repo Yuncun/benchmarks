@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JevBench, with Microsoft-Decision-1 placed by extrapolation</title>
+<link rel="icon" href="data:,"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Chewy&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="board.css">
+<style>
+.top{max-width:1180px;margin:0 auto;padding:28px 18px 6px}
+.top h1{font-family:var(--display);font-size:34px;margin:0 0 6px}
+.top p{margin:4px 0;color:var(--soft);font-size:15px;max-width:900px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 18px 40px}
+.wrap h2{font-family:var(--display);font-size:24px;margin:26px 0 8px}
+tr.ours td{background:var(--paper)}
+.rng{font-family:var(--mono);font-size:11px;color:var(--soft);display:block}
+</style></head>
+<body>
+<div class="top">
+<h1>JevBench, with Microsoft-Decision-1 placed by extrapolation</h1>
+<p>The <a href="https://benchmarkheaven.com/jev-models" target="_blank" rel="noopener">JevBench</a> boards, fetched live, ranked by Intelligence. The highlighted row is not a JevBench measurement: it is Microsoft-Decision-1's Decision Index public score mapped onto JevBench's scale through the models that appear on both boards, shown with its likely range.</p>
+<p id="status" class="foot" hidden></p>
+</div>
+<main class="wrap"><div id="table"><div id="app"></div></div></main>
+<script>
+const $=s=>document.querySelector(s);
+const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const one=n=>n==null?'—':Number(n).toFixed(1);
+const money=n=>n==null?'—':'$'+Number(n).toFixed(3);
+const secs=n=>n==null?'—':n>=1?n.toFixed(2)+' s':Math.round(n*1000)+' ms';
+// Fit over 21 models on both boards (Oct 2026): JevBench Intelligence = A + B x Decision Index public; residual SD.
+const A=-0.4,B=1.07,SD=7.5;
+async function getJSON(live,local){try{const r=await fetch(live,{cache:'no-store'});if(!r.ok)throw 0;return {d:await r.json(),live:true}}catch(e){const r=await fetch(local);return {d:await r.json(),live:false}}}
+(async()=>{
+ const [J,R]=await Promise.all([getJSON('https://benchmarkheaven.com/api/decision-results/jevbench/v1.6.1/json','data/jevbench.json'),fetch('data/runs.json').then(r=>r.json())]);
+ const rows=J.d.rows||J.d.systems||[];
+ const ms=R.runs.find(u=>u.engine==='microsoft-decision-1');
+ const est=A+B*ms.pub, lo=est-SD, hi=est+SD;
+ const section=(board,title)=>{
+  const bs=rows.filter(r=>r.board===board&&r.intelligence!=null).map(r=>({name:r.name,int:r.intelligence,cal:r.calibration,spd:r.speed,cost:r.cost_axis,usd:r.usd_per_1000_decisions,p50:r.p50_adjusted_s??r.p50_raw_s,url:r.source_url}));
+  bs.push({name:ms.name,int:est,ours:true,url:'https://github.com/Yuncun/benchmarks'});
+  bs.sort((a,b)=>b.int-a.int);
+  const rankAt=v=>bs.filter(r=>!r.ours&&r.int>v).length+1;
+  const body=bs.map((r,i)=>`<tr class="${r.ours?'ours':''}"><td class="r"><span class="rank">${i+1}</span>${r.ours?`<span class="rng">${rankAt(hi)} to ${rankAt(lo)}</span>`:''}</td>
+   <td><div class="bm"><a href="${esc(r.url||'#')}" target="_blank" rel="noopener">${esc(r.name)}</a></div>${r.ours?`<div class="bm-sub"><span class="pill k-full">estimate</span><span class="from">from Decision Index public ${one(ms.pub)}</span></div>`:''}</td>
+   <td class="r"><span class="score big">${one(r.int)}</span>${r.ours?`<span class="rng">${one(lo)} to ${one(hi)}</span>`:''}</td>
+   <td class="r"><span class="mono">${one(r.cal)}</span></td><td class="r"><span class="mono">${one(r.spd)}</span></td><td class="r"><span class="mono">${one(r.cost)}</span></td>
+   <td class="r"><span class="mono">${money(r.usd)}</span></td><td class="r"><span class="mono">${secs(r.p50)}</span></td></tr>`).join('');
+  return `<h2>${title}</h2><div class="table-scroll"><table><thead><tr><th class="r">#</th><th>system</th><th class="r">intelligence</th><th class="r">calibration</th><th class="r">speed</th><th class="r">cost</th><th class="r">$ / 1,000</th><th class="r">latency p50</th></tr></thead><tbody>${body}</tbody></table></div>`;
+ };
+ $('#app').innerHTML=section('api','Hosted API board')+section('open','Open-weights board');
+ document.title+=J.live?'':' (snapshot)';
+})().catch(e=>{const st=$('#status');st.hidden=false;st.textContent='Could not load JevBench data: '+e});
+</script>
+</body></html>
